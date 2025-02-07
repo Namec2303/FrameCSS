@@ -596,20 +596,12 @@ html {
 }
 
 /* Terminan los degradados */
-/**/
-/**/
-/**/
-/* Hover */
-.input:hover {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding: 2rem;
-    border-bottom: solid;
-}
 
-.hover-2:hover {
-    background: #ffC80f;
+
+/* Hover */
+
+.button-hover:hover {
+    box-shadow: 2px 2px 4px #909 ;
 }
 
 /* Termina Hover */
@@ -664,6 +656,52 @@ html {
 .radius-12 {
     border-radius: 3rem;
 }
+
+
+/* Anchos personalizados */
+
+
+.width-10 {
+    width: 10%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+/* Terminan los Anchos Personalizados */
 
 /* Termina Border Radius */
 /* buttons */
@@ -753,21 +791,6 @@ html {
 
 /* Terminan los tipos de Letras */
 
-
-
-/* Termina la clase "A" */
-.boton {
-    border: none;
-    width: 90%;
-}
-
-.boton-form {
-    border: none;
-    width: 100%;
-}
-
-
-
 .img {
     width: 100%;
 }
@@ -785,17 +808,6 @@ picture {
     width: 100%;
 }
 
-/* Termina Clases Cartas */
-/* Clases de Imagenes */
-.img {
-    width: 100%;
-}
-
-.img-sorteo {
-    object-fit: contain;
-}
-
-/* Termina las clases de Imagnes */
 /* Clases para listas */
 .list-style-none {
     list-style: none;
@@ -2738,6 +2750,5 @@ picture {
     content: '🖌️';
     /* Icono de pincel */
 }
-
 
 /* Terminan los Iconos */
