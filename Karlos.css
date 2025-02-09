@@ -546,32 +546,7 @@ html {
 }
 
 /* Terminan los bordes de colores */
-/* Colores */
-.txt-danger {
-    color: var(--text-danger);
-}
 
-.txt-green {
-    color: var(--text-green);
-}
-
-.txt-blue {
-    color: var(--text-blue);
-}
-
-.txt-purple {
-    color: var(--text-purple);
-}
-
-.txt-pink {
-    color: var(--text-pink);
-}
-
-.txt-lghtBlue {
-    color: var(--text-lightblue);
-}
-
-/* Terminan los Colores */
 /* Text Wrap */
 .word-wrap {
     word-wrap: break-word;
