@@ -48,7 +48,7 @@ html {
 */
 
 .adapter-box {
-    width: max-content ;
+    width: max-content;
 }
 
 .darkMode {
@@ -138,7 +138,7 @@ html {
 }
 
 .green {
-    color: green;
+    color: #008000;
 }
 
 .pink {
@@ -158,7 +158,7 @@ html {
 }
 
 .grey {
-    color: grey;
+    color: #808080;
 }
 
 .gray {
@@ -575,14 +575,397 @@ html {
 
 /* Hover */
 
-.button-hover:hover {
-    box-shadow: 2px 2px 4px #909 ;
+.button-hover-purple:hover {
+    box-shadow: 2px 2px 4px #909;
+}
+
+.button-hover-pink:hover {
+    box-shadow: 2px 2px 4px #ffc0cb;
+}
+
+.button-hover-orange:hover {
+    box-shadow: 2px 2px 4px #ffa500;
+}
+
+.button-hover-green:hover {
+    box-shadow: 2px 2px 4px #090;
+}
+
+.button-hover-brown:hover {
+    box-shadow: 2px 2px 4px #a52a2a;
+}
+
+.button-hover-red:hover {
+    box-shadow: 2px 2px 4px #900;
+}
+
+.button-hover-blue:hover {
+    box-shadow: 2px 2px 4px #add8e6;
+}
+
+.button-hover-teal:hover {
+    box-shadow: 2px 2px 4px #20b2aa;
+}
+
+.button-hover-lavender:hover {
+    box-shadow: 2px 2px 4px #e6e6fa;
+}
+
+.button-hover-skyblue:hover {
+    box-shadow: 2px 2px 4px #87cefa;
+}
+
+.button-hover-yellow:hover {
+    box-shadow: 2px 2px 4px #fffacd;
+}
+
+.button-hover-gray:hover {
+    box-shadow: 2px 2px 4px #d3d3d3;
+}
+
+.button-hover-lightblue:hover {
+    box-shadow: 2px 2px 4px #b0e0e6;
+}
+
+.button-hover-lightgreen:hover {
+    box-shadow: 2px 2px 4px #90ee90;
+}
+
+.button-hover-lightpink:hover {
+    box-shadow: 2px 2px 4px #ffb6c1;
+}
+
+.button-hover-lightyellow:hover {
+    box-shadow: 2px 2px 4px #ffffe0;
+}
+
+.button-hover-darkblue:hover {
+    box-shadow: 2px 2px 4px #00008b;
+}
+
+.button-hover-darkgreen:hover {
+    box-shadow: 2px 2px 4px #006400;
+}
+
+.button-hover-darkgray:hover {
+    box-shadow: 2px 2px 4px #a9a9a9;
+}
+
+.button-hover-darkred:hover {
+    box-shadow: 2px 2px 4px #8b0000;
+}
+
+.button-hover-darkviolet:hover {
+    box-shadow: 2px 2px 4px #9400d3;
+}
+
+.button-hover-gold:hover {
+    box-shadow: 2px 2px 4px #ffd700;
+}
+
+.button-hover-silver:hover {
+    box-shadow: 2px 2px 4px #c0c0c0;
+}
+
+.button-hover-coral:hover {
+    box-shadow: 2px 2px 4px #ff7f50;
+}
+
+.button-hover-chocolate:hover {
+    box-shadow: 2px 2px 4px #d2691e;
+}
+
+.button-hover-firebrick:hover {
+    box-shadow: 2px 2px 4px #b22222;
+}
+
+.button-hover-rosybrown:hover {
+    box-shadow: 2px 2px 4px #bc8f8f;
+}
+
+.button-hover-ivory:hover {
+    box-shadow: 2px 2px 4px #fffff0;
+}
+
+.button-hover-peachpuff:hover {
+    box-shadow: 2px 2px 4px #ffdab9;
+}
+
+.button-hover-seashell:hover {
+    box-shadow: 2px 2px 4px #fff5ee;
+}
+
+.button-hover-salmon:hover {
+    box-shadow: 2px 2px 4px #fa8072;
+}
+
+.button-hover-plum:hover {
+    box-shadow: 2px 2px 4px #dda0dd;
+}
+
+.button-hover-mediumorchid:hover {
+    box-shadow: 2px 2px 4px #ba55d3;
+}
+
+.button-hover-thistle:hover {
+    box-shadow: 2px 2px 4px #d8bfd8;
+}
+
+.button-hover-lime:hover {
+    box-shadow: 2px 2px 4px #00ff00;
+}
+
+.button-hover-mediumvioletred:hover {
+    box-shadow: 2px 2px 4px #c71585;
+}
+
+.button-hover-mediumslateblue:hover {
+    box-shadow: 2px 2px 4px #7b68ee;
+}
+
+.button-hover-mediumturquoise:hover {
+    box-shadow: 2px 2px 4px #48d1cc;
+}
+
+.button-hover-darkturquoise:hover {
+    box-shadow: 2px 2px 4px #00ced1;
+}
+
+.button-hover-aquamarine:hover {
+    box-shadow: 2px 2px 4px #7fffd4;
+}
+
+.button-hover-cadetblue:hover {
+    box-shadow: 2px 2px 4px #5f9ea0;
+}
+
+.button-hover-lightseagreen:hover {
+    box-shadow: 2px 2px 4px #20b2aa;
+}
+
+.button-hover-forestgreen:hover {
+    box-shadow: 2px 2px 4px #228b22;
+}
+
+.button-hover-mediumseagreen:hover {
+    box-shadow: 2px 2px 4px #3cb371;
+}
+
+.button-hover-royalblue:hover {
+    box-shadow: 2px 2px 4px #4169e1;
+}
+
+.button-hover-tomato:hover {
+    box-shadow: 2px 2px 4px #ff6347;
 }
 
 /* Termina Hover */
 
+/* Empiezan los :active */
 
-/* Terminan las flechas */
+.active-blue:active {
+    color: #00f;
+}
+
+.active-darkBlue:active {
+    color: #009;
+}
+
+.active-red:active {
+    color: #f00;
+}
+
+.active-darkRed:active {
+    color: #900;
+}
+
+.active-purple:active {
+    color: #909;
+}
+
+.active-cyan:active {
+    color: #00ffff;
+}
+
+.active-darkCyan:active {
+    color: #008b8b;
+}
+
+.active-lightblue:active {
+    color: #add8e6;
+}
+
+.active-lightgreen:active {
+    color: #90ee90;
+}
+
+.active-lightpink:active {
+    color: #ffb6c1;
+}
+
+.active-lightyellow:active {
+    color: #ffffe0;
+}
+
+.active-darkGreen:active {
+    color: #006400;
+}
+
+.active-darkGray:active {
+    color: #a9a9a9;
+}
+
+.active-darkViolet:active {
+    color: #9400d3;
+}
+
+.active-gold:active {
+    color: #ffd700;
+}
+
+.active-silver:active {
+    color: #c0c0c0;
+}
+
+.active-coral:active {
+    color: #ff7f50;
+}
+
+.active-chocolate:active {
+    color: #d2691e;
+}
+
+.active-firebrick:active {
+    color: #b22222;
+}
+
+.active-rosybrown:active {
+    color: #bc8f8f;
+}
+
+.active-ivory:active {
+    color: #fffff0;
+}
+
+.active-peachpuff:active {
+    color: #ffdab9;
+}
+
+.active-seashell:active {
+    color: #fff5ee;
+}
+
+.active-salmon:active {
+    color: #fa8072;
+}
+
+.active-plum:active {
+    color: #dda0dd;
+}
+
+.active-mediumorchid:active {
+    color: #ba55d3;
+}
+
+.active-thistle:active {
+    color: #d8bfd8;
+}
+
+.active-lime:active {
+    color: #00ff00;
+}
+
+.active-mediumvioletred:active {
+    color: #c71585;
+}
+
+.active-mediumslateblue:active {
+    color: #7b68ee;
+}
+
+.active-mediumturquoise:active {
+    color: #48d1cc;
+}
+
+.active-darkturquoise:active {
+    color: #00ced1;
+}
+
+.active-aquamarine:active {
+    color: #7fffd4;
+}
+
+.active-cadetblue:active {
+    color: #5f9ea0;
+}
+
+.active-lightseagreen:active {
+    color: #20b2aa;
+}
+
+.active-forestgreen:active {
+    color: #228b22;
+}
+
+.active-mediumseagreen:active {
+    color: #3cb371;
+}
+
+.active-royalblue:active {
+    color: #4169e1;
+}
+
+.active-tomato:active {
+    color: #ff6347;
+}
+
+.active-lightgray:active {
+    color: #d3d3d3;
+}
+
+.active-darkorange:active {
+    color: #ff8c00;
+}
+
+.active-lightcoral:active {
+    color: #f08080;
+}
+
+.active-darkgoldenrod:active {
+    color: #b8860b;
+}
+
+.active-deepskyblue:active {
+    color: #00bfff;
+}
+
+.active-slateblue:active {
+    color: #6a5acd;
+}
+
+.active-darkslategray:active {
+    color: #2f4f4f;
+}
+
+.active-mediumspringgreen:active {
+    color: #00fa9a;
+}
+
+.active-darkorchid:active {
+    color: #9932cc;
+}
+
+.active-lightsteelblue:active {
+    color: #b0c4de;
+}
+
+.active-wheat:active {
+    color: #f5deb3;
+}
+
+
+/* Terminan los active */
+
 /* Border Radius */
 .radius-1 {
     border-radius: 1rem;
@@ -2724,6 +3107,1034 @@ picture {
 .icon-pincel::before {
     content: '🖌️';
     /* Icono de pincel */
+}
+
+.icon-cara_riente::before {
+    content: '😀';
+}
+
+.icon-cara_riente_con_ojos_grandes::before {
+    content: '😁';
+}
+
+.icon-cara_con_lágrimas_de_alegría::before {
+    content: '😂';
+}
+
+.icon-rodando_de_risa::before {
+    content: '🤣';
+}
+
+.icon-cara_riente_con_ojos_sonrientes::before {
+    content: '😃';
+}
+
+.icon-cara_radiando_felicidad::before {
+    content: '😄';
+}
+
+.icon-cara_riente_con_sudor::before {
+    content: '😅';
+}
+
+.icon-cara_con_lágrimas_de_alegría::before {
+    content: '😆';
+}
+
+.icon-cara_sonriente_con_halo::before {
+    content: '😇';
+}
+
+.icon-cara_sonriente_con_cuernos::before {
+    content: '😈';
+}
+
+.icon-cara_haciendo_ojo::before {
+    content: '😉';
+}
+
+.icon-cara_sonriente_con_ojos_alegres::before {
+    content: '😊';
+}
+
+.icon-cara_disfrutando_comida::before {
+    content: '😋';
+}
+
+.icon-cara_sonriente_con_gafas_de_sol::before {
+    content: '😎';
+}
+
+.icon-ojos_de_corazón::before {
+    content: '😍';
+}
+
+.icon-cara_de_soberbia::before {
+    content: '😏';
+}
+
+.icon-cara_neutral::before {
+    content: '😐';
+}
+
+.icon-cara_sin_expresión::before {
+    content: '😑';
+}
+
+.icon-cara_de_desaprobación::before {
+    content: '😒';
+}
+
+.icon-cara_con_ceja_alzada::before {
+    content: '😓';
+}
+
+.icon-cara_con_ojos_rodando::before {
+    content: '😔';
+}
+
+.icon-cara_de_pensando::before {
+    content: '😕';
+}
+
+.icon-cara_confusa::before {
+    content: '😖';
+}
+
+.icon-cara_decepcionada::before {
+    content: '😗';
+}
+
+.icon-cara_preocupada::before {
+    content: '😘';
+}
+
+.icon-cara_enfadada::before {
+    content: '😙';
+}
+
+.icon-cara_de_rabia::before {
+    content: '😚';
+}
+
+.icon-cara_de_pensativa::before {
+    content: '😜';
+}
+
+.icon-cara_confusa::before {
+    content: '😝';
+}
+
+.icon-cara_de_miedo::before {
+    content: '😛';
+}
+
+.icon-cara_decepcionada_aliviada::before {
+    content: '😟';
+}
+
+.icon-cara_triste_pero_aliviada::before {
+    content: '😠';
+}
+
+.icon-cara_llorando::before {
+    content: '😡';
+}
+
+.icon-cara_de_resistencia::before {
+    content: '😢';
+}
+
+.icon-cara_con_aire_de_triuno::before {
+    content: '😣';
+}
+
+.icon-cara_cansada::before {
+    content: '😤';
+}
+
+.icon-cara_de_sueño::before {
+    content: '😥';
+}
+
+.icon-cara_bostezando::before {
+    content: '😦';
+}
+
+.icon-cara_con_vapor_saliendo_de_la_nariz::before {
+    content: '😧';
+}
+
+.icon-cara_durmiendo::before {
+    content: '😨';
+}
+
+.icon-cara_dizzy::before {
+    content: '😩';
+}
+
+.icon-cara_sin_boca::before {
+    content: '😪';
+}
+
+.icon-cara_con_máscara_medica::before {
+    content: '😫';
+}
+
+.icon-gato_sonriente::before {
+    content: '😬';
+}
+
+.icon-gato_riente::before {
+    content: '😭';
+}
+
+.icon-gato_con_lágrimas_de_alegría::before {
+    content: '😮';
+}
+
+.icon-gato_con_sonrisa_cínica::before {
+    content: '😯';
+}
+
+.icon-cara_de_gato_con_ojos_grandes::before {
+    content: '😰';
+}
+
+.icon-cara_de_gato_con_ojos_de_corazón::before {
+    content: '😱';
+}
+
+.icon-cara_de_gato_con_lengua::before {
+    content: '😲';
+}
+
+.icon-cara_de_gato_con_ojo_pestañeando::before {
+    content: '😳';
+}
+
+.icon-cara_de_perro::before {
+    content: '😴';
+}
+
+.icon-cara_de_rata::before {
+    content: '😵';
+}
+
+.icon-cara_de_hámster::before {
+    content: '😶';
+}
+
+.icon-cara_de_conejo::before {
+    content: '😷';
+}
+
+.icon-cara_de_zorro::before {
+    content: '😸';
+}
+
+.icon-cara_de_oso::before {
+    content: '😹';
+}
+
+.icon-cara_de_panda::before {
+    content: '😺';
+}
+
+.icon-cara_de_koala::before {
+    content: '😻';
+}
+
+.icon-cara_de_tigre::before {
+    content: '😼';
+}
+
+.icon-cara_de_león::before {
+    content: '😽';
+}
+
+.icon-cara_de_vaca::before {
+    content: '🙀';
+}
+
+.icon-cara_de_puerquito::before {
+    content: '😿';
+}
+
+.icon-cara_de_rana::before {
+    content: '🙈';
+}
+
+.icon-cara_de_monito::before {
+    content: '🙉';
+}
+
+.icon-monito_sin_ver::before {
+    content: '🙊';
+}
+
+.icon-monito_sin_oir::before {
+    content: '👋';
+}
+
+.icon-monito_sin_hablar::before {
+    content: '🤚';
+}
+
+.icon-perrito::before {
+    content: '🖐';
+}
+
+.icon-gatito::before {
+    content: '✋';
+}
+
+.icon-conejo::before {
+    content: '🖖';
+}
+
+.icon-hámster::before {
+    content: '👌';
+}
+
+.icon-erizo::before {
+    content: '👍';
+}
+
+.icon-caballo::before {
+    content: '👎';
+}
+
+.icon-oveja::before {
+    content: '👊';
+}
+
+.icon-camello::before {
+    content: '✊';
+}
+
+.icon-elefante::before {
+    content: '🤛';
+}
+
+.icon-canguro::before {
+    content: '🤜';
+}
+
+.icon-león::before {
+    content: '🤞';
+}
+
+.icon-tigre::before {
+    content: '🤗';
+}
+
+.icon-oso::before {
+    content: '🤔';
+}
+
+.icon-panda::before {
+    content: '🤐';
+}
+
+.icon-koala::before {
+    content: '🤨';
+}
+
+.icon-rana::before {
+    content: '😐';
+}
+
+.icon-mono::before {
+    content: '😑';
+}
+
+.icon-perrito_con_hueso::before {
+    content: '😶';
+}
+
+.icon-gatito_con_bola_de_lana::before {
+    content: '🙄';
+}
+
+.icon-perrito_con_gafas::before {
+    content: '🤔';
+}
+
+.icon-gatito_con_gafas::before {
+    content: '🤩';
+}
+
+.icon-cerdito::before {
+    content: '🥳';
+}
+
+.icon-rana::before {
+    content: '🥴';
+}
+
+.icon-murciélago::before {
+    content: '🧐';
+}
+
+.icon-rata::before {
+    content: '🕵️‍♂️';
+}
+
+.icon-serpiente::before {
+    content: '🕵️‍♀️';
+}
+
+.icon-lagarto::before {
+    content: '👨‍⚕️';
+}
+
+.icon-araña::before {
+    content: '👩‍⚕️';
+}
+
+.icon-escorpión::before {
+    content: '👨‍🍳';
+}
+
+.icon-cangrejo::before {
+    content: '👩‍🍳';
+}
+
+.icon-cucaracha::before {
+    content: '👨‍🎓';
+}
+
+.icon-hormiga::before {
+    content: '👩‍🎓';
+}
+
+.icon-escarabajo::before {
+    content: '👨‍🏫';
+}
+
+.icon-mariposa::before {
+    content: '👩‍🏫';
+}
+
+.icon-bicho::before {
+    content: '👨‍⚖️';
+}
+
+.icon-tierra_africa::before {
+    content: '👩‍⚖️';
+}
+
+.icon-tierra_america::before {
+    content: '👨‍🎤';
+}
+
+.icon-tierra_asia::before {
+    content: '👩‍🎤';
+}
+
+.icon-globo_con_meridianos::before {
+    content: '👨‍🎨';
+}
+
+.icon-mapa_mundi::before {
+    content: '👩‍🎨';
+}
+
+.icon-montaña_con_nieve::before {
+    content: '👨‍✈️';
+}
+
+.icon-montaña::before {
+    content: '👩‍✈️';
+}
+
+.icon-volcán::before {
+    content: '👨‍🚀';
+}
+
+.icon-desierto::before {
+    content: '👩‍🚀';
+}
+
+.icon-amanecer::before {
+    content: '👨‍🚒';
+}
+
+.icon-atardecer::before {
+    content: '👩‍🚒';
+}
+
+.icon-ciudad_atardecer::before {
+    content: '👨‍⚖️';
+}
+
+.icon-ciudad_amanecer::before {
+    content: '👩‍⚖️';
+}
+
+.icon-isla_desierta::before {
+    content: '👨‍🏫';
+}
+
+.icon-playa_con_paraguas::before {
+    content: '👩‍🏫';
+}
+
+.icon-ciclista_de_montaña::before {
+    content: '👨‍🎓';
+}
+
+.icon-bicicleta_de_montaña::before {
+    content: '👩‍🎓';
+}
+
+.icon-persona_en_posición_de_loto::before {
+    content: '🧑‍⚕️';
+}
+
+.icon-persona_con_bastón_de_exploración::before {
+    content: '🧑‍🍳';
+}
+
+.icon-trabajador_de_salud_mujer::before {
+    content: '🧑‍🎓';
+}
+
+.icon-trabajador_de_salud_hombre::before {
+    content: '🧑‍🏫';
+}
+
+.icon-maestra::before {
+    content: '🧑‍⚖️';
+}
+
+.icon-maestro::before {
+    content: '🧑‍🚒';
+}
+
+.icon-juez_mujer::before {
+    content: '🧑‍✈️';
+}
+
+.icon-juez_hombre::before {
+    content: '🧑‍🚀';
+}
+
+.icon-científica_mujer::before {
+    content: '🧑‍🎤';
+}
+
+.icon-científico_hombre::before {
+    content: '🧑‍🎨';
+}
+
+.icon-artista_mujer::before {
+    content: '👴';
+}
+
+.icon-artista_hombre::before {
+    content: '👵';
+}
+
+.icon-bombera::before {
+    content: '👶';
+}
+
+.icon-bombero::before {
+    content: '👧';
+}
+
+.icon-pilota_mujer::before {
+    content: '🧑';
+}
+
+.icon-piloto_hombre::before {
+    content: '👦';
+}
+
+.icon-astronauta_mujer::before {
+    content: '👩';
+}
+
+.icon-astronauta_hombre::before {
+    content: '👱‍♀️';
+}
+
+.icon-cantante_mujer::before {
+    content: '👱‍♂️';
+}
+
+.icon-cantante_hombre::before {
+    content: '👨‍🦳';
+}
+
+.icon-bailarina_mujer::before {
+    content: '👩‍🦳';
+}
+
+.icon-bailarín_hombre::before {
+    content: '👨‍🦲';
+}
+
+.icon-policía_mujer::before {
+    content: '👩‍🦲';
+}
+
+.icon-policía_hombre::before {
+    content: '🧑‍🦲';
+}
+
+.icon-agricultora::before {
+    content: '🧑‍🦳';
+}
+
+.icon-agricultor::before {
+    content: '👨‍🦱';
+}
+
+.icon-trabajadora_de_construcción::before {
+    content: '👩‍🦱';
+}
+
+.icon-trabajador_de_construcción::before {
+    content: '👨‍🦰';
+}
+
+.icon-guardia_mujer::before {
+    content: '👩‍🦰';
+}
+
+.icon-guardia_hombre::before {
+    content: '👨‍🦱';
+}
+
+.icon-soldado_mujer::before {
+    content: '👩‍🦱';
+}
+
+.icon-soldado_hombre::before {
+    content: '🤳';
+}
+
+.icon-medalla_de_deporte_mujer::before {
+    content: '📱';
+}
+
+.icon-medalla_de_deporte_hombre::before {
+    content: '📲';
+}
+
+.icon-surfista_mujer::before {
+    content: '☎️';
+}
+
+.icon-surfista_hombre::before {
+    content: '📞';
+}
+
+.icon-jugadora_de_balón_manó::before {
+    content: '📟';
+}
+
+.icon-jugador_de_balón_manó::before {
+    content: '📠';
+}
+
+.icon-jugadora_de_voley::before {
+    content: '💻';
+}
+
+.icon-jugador_de_voley::before {
+    content: '🖥';
+}
+
+.icon-luchadora_mujer::before {
+    content: '🖨';
+}
+
+.icon-luchador_hombre::before {
+    content: '🖱';
+}
+
+.icon-luchadora::before {
+    content: '🖲';
+}
+
+.icon-luchador::before {
+    content: '💾';
+}
+
+.icon-esgrimista_mujer::before {
+    content: '💿';
+}
+
+.icon-esgrimista_hombre::before {
+    content: '📀';
+}
+
+.icon-esquiadora::before {
+    content: '📼';
+}
+
+.icon-esquiador::before {
+    content: '📷';
+}
+
+.icon-ciclista_de_montaña_mujer::before {
+    content: '📸';
+}
+
+.icon-ciclista_de_montaña_hombre::before {
+    content: '📹';
+}
+
+.icon-nadadora_mujer::before {
+    content: '📺';
+}
+
+.icon-nadador_hombre::before {
+    content: '📻';
+}
+
+.icon-atleta_mujer::before {
+    content: '🎙';
+}
+
+.icon-atleta_hombre::before {
+    content: '🎚';
+}
+
+.icon-levantadora_de_pesas_mujer::before {
+    content: '🎛';
+}
+
+.icon-levantador_de_pesas_hombre::before {
+    content: '🎤';
+}
+
+.icon-controlador-videojuegos::before {
+    content: '🎮';
+}
+
+.icon-libro::before {
+    content: '📚';
+}
+
+.icon-guitarra::before {
+    content: '🎸';
+}
+
+.icon-balon-baloncesto::before {
+    content: '🏀';
+}
+
+.icon-balon-futbol::before {
+    content: '⚽';
+}
+
+.icon-dado::before {
+    content: '🎲';
+}
+
+.icon-camara-fotos::before {
+    content: '📷';
+}
+
+.icon-auriculares::before {
+    content: '🎧';
+}
+
+.icon-ordenador-portatil::before {
+    content: '💻';
+}
+
+.icon-telefono-movil::before {
+    content: '📱';
+}
+
+.icon-camara-video::before {
+    content: '🎥';
+}
+
+.icon-paleta-pintura::before {
+    content: '🎨';
+}
+
+.icon-raton::before {
+    content: '🖱️';
+}
+
+.icon-ordenador-escritorio::before {
+    content: '🖥️';
+}
+
+.icon-microfono::before {
+    content: '🎤';
+}
+
+.icon-camara-cine::before {
+    content: '🎬';
+}
+
+.icon-antena-satelite::before {
+    content: '📡';
+}
+
+.icon-globo-terrestre::before {
+    content: '🌐';
+}
+
+.icon-regalo::before {
+    content: '🎁';
+}
+
+.icon-cohete::before {
+    content: '🚀';
+}
+
+.icon-camion::before {
+    content: '🚚';
+}
+
+.icon-avion::before {
+    content: '✈️';
+}
+
+.icon-barco::before {
+    content: '🚢';
+}
+
+.icon-bici::before {
+    content: '🚲';
+}
+
+.icon-tren::before {
+    content: '🚆';
+}
+
+.icon-auto::before {
+    content: '🚗';
+}
+
+.icon-moto::before {
+    content: '🏍️';
+}
+
+.icon-tractor::before {
+    content: '🚜';
+}
+
+.icon-television::before {
+    content: '📺';
+}
+
+.icon-radio::before {
+    content: '📻';
+}
+
+.icon-reproductor-cd::before {
+    content: '📀';
+}
+
+.icon-casette::before {
+    content: '📼';
+}
+
+.icon-cine::before {
+    content: '🍿';
+}
+
+.icon-cafe::before {
+    content: '☕';
+}
+
+.icon-vaso::before {
+    content: '🥤';
+}
+
+.icon-cerveza::before {
+    content: '🍺';
+}
+
+.icon-cocktail::before {
+    content: '🍸';
+}
+
+.icon-barril::before {
+    content: '🍻';
+}
+
+.icon-comida::before {
+    content: '🍔';
+}
+
+.icon-pizza::before {
+    content: '🍕';
+}
+
+.icon-sopa::before {
+    content: '🍲';
+}
+
+.icon-taco::before {
+    content: '🌮';
+}
+
+.icon-hamburguesa::before {
+    content: '🍔';
+}
+
+.icon-paleta::before {
+    content: '🍭';
+}
+
+.icon-galleta::before {
+    content: '🍪';
+}
+
+.icon-donut::before {
+    content: '🍩';
+}
+
+.icon-fruta::before {
+    content: '🍎';
+}
+
+.icon-uva::before {
+    content: '🍇';
+}
+
+.icon-platano::before {
+    content: '🍌';
+}
+
+.icon-cereza::before {
+    content: '🍒';
+}
+
+.icon-fresa::before {
+    content: '🍓';
+}
+
+.icon-pineapple::before {
+    content: '🍍';
+}
+
+.icon-melon::before {
+    content: '🍈';
+}
+
+.icon-manzana::before {
+    content: '🍏';
+}
+
+.icon-naranja::before {
+    content: '🍊';
+}
+
+.icon-papaya::before {
+    content: '🍈';
+}
+
+.icon-zanahoria::before {
+    content: '🥕';
+}
+
+.icon-pimiento::before {
+    content: '🌶️';
+}
+
+.icon-berenjena::before {
+    content: '🍆';
+}
+
+.icon-patata::before {
+    content: '🥔';
+}
+
+.icon-aguacate::before {
+    content: '🥑';
+}
+
+.icon-calabaza::before {
+    content: '🎃';
+}
+
+.icon-hamburguesa::before {
+    content: '🍔';
+}
+
+.icon-perro::before {
+    content: '🐕';
+}
+
+.icon-gato::before {
+    content: '🐱';
+}
+
+.icon-horse::before {
+    content: '🐴';
+}
+
+.icon-caballo::before {
+    content: '🐎';
+}
+
+.icon-cangrejo::before {
+    content: '🦀';
+}
+
+.icon-pato::before {
+    content: '🦆';
+}
+
+.icon-pez::before {
+    content: '🐟';
+}
+
+.icon-ballena::before {
+    content: '🐋';
+}
+
+.icon-leon::before {
+    content: '🦁';
+}
+
+.icon-tigre::before {
+    content: '🐅';
+}
+
+.icon-cebra::before {
+    content: '🦓';
+}
+
+.icon-tortuga::before {
+    content: '🐢';
+}
+
+.icon-rana::before {
+    content: '🐸';
+}
+
+.icon-cocodrilo::before {
+    content: '🐊';
+}
+
+.icon-serpiente::before {
+    content: '🐍';
+}
+
+.icon-murcielago::before {
+    content: '🦇';
+}
+
+.icon-elefante::before {
+    content: '🐘';
+}
+
+.icon-raton::before {
+    content: '🐭';
 }
 
 /* Terminan los Iconos */
