@@ -1095,24 +1095,25 @@ html {
 
 /* Terminan los fondos de página */
 /* Estrellas por productos */
-.star-5::after {
-    content: '⭐ ⭐ ⭐ ⭐ ⭐';
+
+.icon-star-1::before {
+    content: '\2B50';
 }
 
-.star-4::after {
-    content: '⭐ ⭐ ⭐ ⭐';
+.icon-star-2::before {
+    content: '\2B50\2B50';
 }
 
-.star-3::after {
-    content: '⭐ ⭐ ⭐';
+.icon-star-3::before {
+    content: '\2B50\2B50\2B50';
 }
 
-.star-2::after {
-    content: '⭐ ⭐';
+.icon-star-4::before {
+    content: '\2B50\2B50\2B50\2B50';
 }
 
-.star-1::after {
-    content: '⭐';
+.icon-star-5::before {
+    content: '\2B50\2B50\2B50\2B50\2B50';
 }
 
 /* Terminan las estrellas por productos */
@@ -2666,1475 +2667,1236 @@ picture {
     /* Tamaño de los iconos */
 }
 
-/* 100 iconos representados como caracteres */
-
-/* Iconos para las primeras 100 clases */
-.icon-globo::before {
-    content: '🌍';
-    /* Icono de globo terráqueo */
-}
-
-.icon-corazón::before {
-    content: '❤️';
-    /* Icono de corazón */
-}
-
-.icon-cuadrado::before {
-    content: '◻️';
-    /* Icono de cuadrado */
-}
-
-.icon-barras::before {
-    content: '☰';
-    /* Icono de barras (menú) */
-}
-
-.icon-check::before {
-    content: '✔️';
-    /* Icono de check */
-}
-
-.icon-cruz::before {
-    content: '❌';
-    /* Icono de cruz */
-}
-
-.icon-lupa::before {
-    content: '🔍';
-    /* Icono de lupa */
-}
-
-.icon-usuario::before {
-    content: '👤';
-    /* Icono de usuario */
-}
-
-.icon-sobre::before {
-    content: '✉️';
-    /* Icono de sobre */
-}
-
-.icon-comentario::before {
-    content: '💬';
-    /* Icono de burbuja de comentario */
-}
-
-.icon-candado::before {
-    content: '🔒';
-    /* Icono de candado */
-}
-
-.icon-bandera::before {
-    content: '🏳️';
-    /* Icono de bandera */
-}
-
-.icon-archivo::before {
-    content: '📄';
-    /* Icono de archivo */
-}
-
-.icon-tarjeta::before {
-    content: '💳';
-    /* Icono de tarjeta de crédito */
-}
-
-.icon-engranaje::before {
-    content: '⚙️';
-    /* Icono de engranaje */
-}
-
-.icon-papelera::before {
-    content: '🗑️';
-    /* Icono de papelera */
-}
-
-.icon-copiar::before {
-    content: '📋';
-    /* Icono de copiar */
-}
-
-.icon-clip::before {
-    content: '📎';
-    /* Icono de clip */
-}
-
-.icon-frasco::before {
-    content: '⚗️';
-    /* Icono de frasco */
-}
-
-.icon-wifi::before {
-    content: '📶';
-    /* Icono de wifi */
-}
-
-.icon-descargar::before {
-    content: '⬇️';
-    /* Icono de descargar */
-}
-
-.icon-subir::before {
-    content: '⬆️';
-    /* Icono de subir */
-}
-
-.icon-megafono::before {
-    content: '📣';
-    /* Icono de megáfono */
-}
-
-.icon-coche::before {
-    content: '🚗';
-    /* Icono de coche */
-}
-
-.icon-telefono::before {
-    content: '📱';
-    /* Icono de teléfono */
-}
-
-.icon-camara::before {
-    content: '📷';
-    /* Icono de cámara */
-}
-
-.icon-bicicleta::before {
-    content: '🚲';
-    /* Icono de bicicleta */
-}
-
-.icon-autobus::before {
-    content: '🚌';
-    /* Icono de autobús */
-}
-
-.icon-camion::before {
-    content: '🚚';
-    /* Icono de camión */
-}
-
-.icon-laptop::before {
-    content: '💻';
-    /* Icono de laptop */
-}
-
-.icon-tablet::before {
-    content: '📱';
-    /* Icono de tablet */
-}
-
-.icon-escritorio::before {
-    content: '🖥️';
-    /* Icono de escritorio */
-}
-
-.icon-disco-duro::before {
-    content: '💾';
-    /* Icono de disco duro */
-}
-
-.icon-auriculares::before {
-    content: '🎧';
-    /* Icono de auriculares */
-}
-
-.icon-musica::before {
-    content: '🎶';
-    /* Icono de música */
-}
-
-.icon-pelicula::before {
-    content: '🎬';
-    /* Icono de película */
-}
-
-.icon-video::before {
-    content: '📹';
-    /* Icono de video */
-}
-
-.icon-engranajes::before {
-    content: '⚙️';
-    /* Icono de engranajes */
-}
-
-.icon-llave::before {
-    content: '🔑';
-    /* Icono de llave */
-}
-
-.icon-campana::before {
-    content: '🔔';
-    /* Icono de campana */
-}
-
-.icon-calendario::before {
-    content: '📅';
-    /* Icono de calendario */
-}
-
-.icon-reloj::before {
-    content: '⏰';
-    /* Icono de reloj */
-}
-
-.icon-ubicacion::before {
-    content: '📍';
-    /* Icono de ubicación */
-}
-
-.icon-mapa::before {
-    content: '🗺️';
-    /* Icono de mapa */
-}
-
-.icon-ojo::before {
-    content: '👁️';
-    /* Icono de ojo */
-}
-
-.icon-ojo-cerrado::before {
-    content: '🙈';
-    /* Icono de ojo cerrado */
-}
-
-.icon-estrella::before {
-    content: '⭐';
-    /* Icono de estrella */
-}
-
-.icon-corazon-latiente::before {
-    content: '💓';
-    /* Icono de corazón latiente */
-}
-
-.icon-rayo::before {
-    content: '⚡';
-    /* Icono de rayo */
-}
-
-.icon-bombilla::before {
-    content: '💡';
-    /* Icono de bombilla */
-}
-
-.icon-sombrilla::before {
-    content: '☂️';
-    /* Icono de sombrilla */
-}
-
-.icon-sol::before {
-    content: '🌞';
-    /* Icono de sol */
-}
-
-.icon-nube::before {
-    content: '☁️';
-    /* Icono de nube */
-}
-
-.icon-copo-nieve::before {
-    content: '❄️';
-    /* Icono de copo de nieve */
-}
-
-.icon-fuego::before {
-    content: '🔥';
-    /* Icono de fuego */
-}
-
-.icon-apreton-manos::before {
-    content: '🤝';
-    /* Icono de apretón de manos */
-}
-
-.icon-rompecabezas::before {
-    content: '🧩';
-    /* Icono de rompecabezas */
-}
-
-.icon-regalo::before {
-    content: '🎁';
-    /* Icono de regalo */
-}
-
-.icon-circulo-usuario::before {
-    content: '👤';
-    /* Icono de círculo de usuario */
-}
-
-.icon-risa::before {
-    content: '😄';
-    /* Icono de risa */
-}
-
-.icon-sonrisa::before {
-    content: '😊';
-    /* Icono de sonrisa */
-}
-
-.icon-triste::before {
-    content: '😞';
-    /* Icono de cara triste */
-}
-
-.icon-pulgar-arriba::before {
-    content: '👍';
-    /* Icono de pulgar arriba */
-}
-
-.icon-pulgar-abajo::before {
-    content: '👎';
-    /* Icono de pulgar abajo */
-}
-
-.icon-llave-inglesa::before {
-    content: '🔧';
-    /* Icono de llave inglesa */
-}
-
-.icon-usuarios::before {
-    content: '👥';
-    /* Icono de usuarios */
-}
-
-.icon-alcancia::before {
-    content: '🐖';
-    /* Icono de alcancía */
-}
-
-.icon-comentarios::before {
-    content: '💬';
-    /* Icono de comentarios */
-}
-
-.icon-nube-descarga::before {
-    content: '📥';
-    /* Icono de descarga en nube */
-}
-
-.icon-nube-subida::before {
-    content: '📤';
-    /* Icono de carga en nube */
-}
-
-.icon-manos-abiertas::before {
-    content: '👐';
-    /* Icono de manos abiertas */
-}
-
-.icon-corazon-circulo::before {
-    content: '💖';
-    /* Icono de corazón en círculo */
-}
-
-.icon-casa::before {
-    content: '🏠';
-    /* Icono de casa */
-}
-
-.icon-maletin::before {
-    content: '💼';
-    /* Icono de maletín */
-}
-
-.icon-sobre-abierto::before {
-    content: '📬';
-    /* Icono de sobre abierto */
-}
-
-.icon-exclamacion::before {
-    content: '❗';
-    /* Icono de exclamación */
-}
-
-.icon-sobre-cuadrado::before {
-    content: '📪';
-    /* Icono de sobre cuadrado */
-}
-
-.icon-pregunta::before {
-    content: '❓';
-    /* Icono de pregunta */
-}
-
-.icon-comillas-izq::before {
-    content: '❝';
-    /* Icono de comillas a la izquierda */
-}
-
-.icon-comillas-der::before {
-    content: '❞';
-    /* Icono de comillas a la derecha */
-}
-
-.icon-enlace::before {
-    content: '🔗';
-    /* Icono de compartir */
-}
-
-.icon-trofeo::before {
-    content: '🏆';
-    /* Icono de trofeo */
-}
-
-.icon-vista-calle::before {
-    content: '🚏';
-    /* Icono de vista de calle */
-}
-
-.icon-rss::before {
-    content: '📡';
-    /* Icono de RSS */
-}
-
-.icon-enviar::before {
-    content: '📤';
-    /* Icono de enviar */
-}
-
-.icon-enlace-externo::before {
-    content: '🔗';
-    /* Icono de enlace externo */
-}
-
-.icon-avion-papel::before {
-    content: '✈️';
-    /* Icono de avión de papel */
-}
-
-.icon-pincel::before {
-    content: '🖌️';
-    /* Icono de pincel */
-}
-
-.icon-cara_riente::before {
-    content: '😀';
-}
-
-.icon-cara_riente_con_ojos_grandes::before {
-    content: '😁';
-}
-
-.icon-cara_con_lágrimas_de_alegría::before {
-    content: '😂';
-}
-
-.icon-rodando_de_risa::before {
-    content: '🤣';
-}
-
-.icon-cara_riente_con_ojos_sonrientes::before {
-    content: '😃';
-}
-
-.icon-cara_radiando_felicidad::before {
-    content: '😄';
-}
-
-.icon-cara_riente_con_sudor::before {
-    content: '😅';
-}
-
-.icon-cara_con_lágrimas_de_alegría::before {
-    content: '😆';
-}
-
-.icon-cara_sonriente_con_halo::before {
-    content: '😇';
-}
-
-.icon-cara_sonriente_con_cuernos::before {
-    content: '😈';
-}
-
-.icon-cara_haciendo_ojo::before {
-    content: '😉';
-}
-
-.icon-cara_sonriente_con_ojos_alegres::before {
-    content: '😊';
-}
-
-.icon-cara_disfrutando_comida::before {
-    content: '😋';
-}
-
-.icon-cara_sonriente_con_gafas_de_sol::before {
-    content: '😎';
-}
-
-.icon-ojos_de_corazón::before {
-    content: '😍';
-}
-
-.icon-cara_de_soberbia::before {
-    content: '😏';
-}
-
-.icon-cara_neutral::before {
-    content: '😐';
-}
-
-.icon-cara_sin_expresión::before {
-    content: '😑';
-}
-
-.icon-cara_de_desaprobación::before {
-    content: '😒';
-}
-
-.icon-cara_con_ceja_alzada::before {
-    content: '😓';
-}
-
-.icon-cara_con_ojos_rodando::before {
-    content: '😔';
-}
-
-.icon-cara_de_pensando::before {
-    content: '😕';
-}
-
-.icon-cara_confusa::before {
-    content: '😖';
-}
-
-.icon-cara_decepcionada::before {
-    content: '😗';
-}
-
-.icon-cara_preocupada::before {
-    content: '😘';
-}
-
-.icon-cara_enfadada::before {
-    content: '😙';
-}
-
-.icon-cara_de_rabia::before {
-    content: '😚';
-}
-
-.icon-cara_de_pensativa::before {
-    content: '😜';
-}
-
-.icon-cara_confusa::before {
-    content: '😝';
-}
-
-.icon-cara_de_miedo::before {
-    content: '😛';
-}
-
-.icon-cara_decepcionada_aliviada::before {
-    content: '😟';
-}
-
-.icon-cara_triste_pero_aliviada::before {
-    content: '😠';
-}
-
-.icon-cara_llorando::before {
-    content: '😡';
-}
-
-.icon-cara_de_resistencia::before {
-    content: '😢';
-}
-
-.icon-cara_con_aire_de_triuno::before {
-    content: '😣';
-}
-
-.icon-cara_cansada::before {
-    content: '😤';
-}
-
-.icon-cara_de_sueño::before {
-    content: '😥';
-}
-
-.icon-cara_bostezando::before {
-    content: '😦';
-}
-
-.icon-cara_con_vapor_saliendo_de_la_nariz::before {
-    content: '😧';
-}
-
-.icon-cara_durmiendo::before {
-    content: '😨';
-}
-
-.icon-cara_dizzy::before {
-    content: '😩';
-}
-
-.icon-cara_sin_boca::before {
-    content: '😪';
-}
-
-.icon-cara_con_máscara_medica::before {
-    content: '😫';
-}
-
-.icon-gato_sonriente::before {
-    content: '😬';
-}
-
-.icon-gato_riente::before {
-    content: '😭';
-}
-
-.icon-gato_con_lágrimas_de_alegría::before {
-    content: '😮';
-}
-
-.icon-gato_con_sonrisa_cínica::before {
-    content: '😯';
-}
-
-.icon-cara_de_gato_con_ojos_grandes::before {
-    content: '😰';
-}
-
-.icon-cara_de_gato_con_ojos_de_corazón::before {
-    content: '😱';
-}
-
-.icon-cara_de_gato_con_lengua::before {
-    content: '😲';
-}
-
-.icon-cara_de_gato_con_ojo_pestañeando::before {
-    content: '😳';
-}
-
-.icon-cara_de_perro::before {
-    content: '😴';
-}
-
-.icon-cara_de_rata::before {
-    content: '😵';
-}
-
-.icon-cara_de_hámster::before {
-    content: '😶';
-}
-
-.icon-cara_de_conejo::before {
-    content: '😷';
-}
-
-.icon-cara_de_zorro::before {
-    content: '😸';
-}
-
-.icon-cara_de_oso::before {
-    content: '😹';
-}
-
-.icon-cara_de_panda::before {
-    content: '😺';
-}
-
-.icon-cara_de_koala::before {
-    content: '😻';
-}
-
-.icon-cara_de_tigre::before {
-    content: '😼';
-}
-
-.icon-cara_de_león::before {
-    content: '😽';
-}
-
-.icon-cara_de_vaca::before {
-    content: '🙀';
-}
-
-.icon-cara_de_puerquito::before {
-    content: '😿';
-}
-
-.icon-cara_de_rana::before {
-    content: '🙈';
-}
-
-.icon-cara_de_monito::before {
-    content: '🙉';
-}
-
-.icon-monito_sin_ver::before {
-    content: '🙊';
-}
-
-.icon-monito_sin_oir::before {
-    content: '👋';
-}
-
-.icon-monito_sin_hablar::before {
-    content: '🤚';
-}
-
-.icon-perrito::before {
-    content: '🖐';
-}
-
-.icon-gatito::before {
-    content: '✋';
-}
-
-.icon-conejo::before {
-    content: '🖖';
-}
-
-.icon-hámster::before {
-    content: '👌';
-}
-
-.icon-erizo::before {
-    content: '👍';
-}
-
-.icon-caballo::before {
-    content: '👎';
-}
-
-.icon-oveja::before {
-    content: '👊';
-}
-
-.icon-camello::before {
-    content: '✊';
-}
-
-.icon-elefante::before {
-    content: '🤛';
-}
-
-.icon-canguro::before {
-    content: '🤜';
-}
-
-.icon-león::before {
-    content: '🤞';
-}
-
-.icon-tigre::before {
-    content: '🤗';
-}
-
-.icon-oso::before {
-    content: '🤔';
-}
-
-.icon-panda::before {
-    content: '🤐';
-}
-
-.icon-koala::before {
-    content: '🤨';
-}
-
-.icon-rana::before {
-    content: '😐';
-}
-
-.icon-mono::before {
-    content: '😑';
-}
-
-.icon-perrito_con_hueso::before {
-    content: '😶';
-}
-
-.icon-gatito_con_bola_de_lana::before {
-    content: '🙄';
-}
-
-.icon-perrito_con_gafas::before {
-    content: '🤔';
-}
-
-.icon-gatito_con_gafas::before {
-    content: '🤩';
-}
-
-.icon-cerdito::before {
-    content: '🥳';
-}
-
-.icon-rana::before {
-    content: '🥴';
-}
-
-.icon-murciélago::before {
-    content: '🧐';
-}
-
-.icon-rata::before {
-    content: '🕵️‍♂️';
-}
-
-.icon-serpiente::before {
-    content: '🕵️‍♀️';
-}
-
-.icon-lagarto::before {
-    content: '👨‍⚕️';
-}
-
-.icon-araña::before {
-    content: '👩‍⚕️';
-}
-
-.icon-escorpión::before {
-    content: '👨‍🍳';
-}
-
-.icon-cangrejo::before {
-    content: '👩‍🍳';
-}
-
-.icon-cucaracha::before {
-    content: '👨‍🎓';
-}
-
-.icon-hormiga::before {
-    content: '👩‍🎓';
-}
-
-.icon-escarabajo::before {
-    content: '👨‍🏫';
-}
-
-.icon-mariposa::before {
-    content: '👩‍🏫';
-}
-
-.icon-bicho::before {
-    content: '👨‍⚖️';
-}
-
-.icon-tierra_africa::before {
-    content: '👩‍⚖️';
-}
-
-.icon-tierra_america::before {
-    content: '👨‍🎤';
-}
-
-.icon-tierra_asia::before {
-    content: '👩‍🎤';
+.icon-smile::before {
+    content: '\1F604';
 }
 
-.icon-globo_con_meridianos::before {
-    content: '👨‍🎨';
+.icon-laughing::before {
+    content: '\1F606';
 }
 
-.icon-mapa_mundi::before {
-    content: '👩‍🎨';
+.icon-wink::before {
+    content: '\1F609';
 }
 
-.icon-montaña_con_nieve::before {
-    content: '👨‍✈️';
+.icon-heart_eyes::before {
+    content: '\1F60D';
 }
 
-.icon-montaña::before {
-    content: '👩‍✈️';
+.icon-blush::before {
+    content: '\1F60A';
 }
 
-.icon-volcán::before {
-    content: '👨‍🚀';
+.icon-sunglasses::before {
+    content: '\1F60E';
 }
 
-.icon-desierto::before {
-    content: '👩‍🚀';
+.icon-confused::before {
+    content: '\1F615';
 }
 
-.icon-amanecer::before {
-    content: '👨‍🚒';
+.icon-kissing::before {
+    content: '\1F617';
 }
 
-.icon-atardecer::before {
-    content: '👩‍🚒';
+.icon-crying::before {
+    content: '\1F622';
 }
 
-.icon-ciudad_atardecer::before {
-    content: '👨‍⚖️';
+.icon-angry::before {
+    content: '\1F620';
 }
 
-.icon-ciudad_amanecer::before {
-    content: '👩‍⚖️';
+.icon-innocent::before {
+    content: '\1F607';
 }
 
-.icon-isla_desierta::before {
-    content: '👨‍🏫';
+.icon-neutral_face::before {
+    content: '\1F610';
 }
 
-.icon-playa_con_paraguas::before {
-    content: '👩‍🏫';
+.icon-expressionless::before {
+    content: '\1F611';
 }
 
-.icon-ciclista_de_montaña::before {
-    content: '👨‍🎓';
+.icon-unamused::before {
+    content: '\1F612';
 }
 
-.icon-bicicleta_de_montaña::before {
-    content: '👩‍🎓';
+.icon-sleepy::before {
+    content: '\1F62A';
 }
 
-.icon-persona_en_posición_de_loto::before {
-    content: '🧑‍⚕️';
+.icon-tired_face::before {
+    content: '\1F62B';
 }
 
-.icon-persona_con_bastón_de_exploración::before {
-    content: '🧑‍🍳';
+.icon-grinning::before {
+    content: '\1F600';
 }
 
-.icon-trabajador_de_salud_mujer::before {
-    content: '🧑‍🎓';
+.icon-blushing::before {
+    content: '\1F633';
 }
 
-.icon-trabajador_de_salud_hombre::before {
-    content: '🧑‍🏫';
+.icon-no_mouth::before {
+    content: '\1F636';
 }
 
-.icon-maestra::before {
-    content: '🧑‍⚖️';
+.icon-smiling_imp::before {
+    content: '\1F608';
 }
 
-.icon-maestro::before {
-    content: '🧑‍🚒';
+.icon-imp::before {
+    content: '\1F47F';
 }
 
-.icon-juez_mujer::before {
-    content: '🧑‍✈️';
+.icon-ghost::before {
+    content: '\1F47B';
 }
 
-.icon-juez_hombre::before {
-    content: '🧑‍🚀';
+.icon-alien::before {
+    content: '\1F47D';
 }
 
-.icon-científica_mujer::before {
-    content: '🧑‍🎤';
+.icon-extraterrestrial::before {
+    content: '\1F7F4';
 }
 
-.icon-científico_hombre::before {
-    content: '🧑‍🎨';
+.icon-robot::before {
+    content: '\1F916';
 }
 
-.icon-artista_mujer::before {
-    content: '👴';
+.icon-zombie::before {
+    content: '\1F9DF';
 }
 
-.icon-artista_hombre::before {
-    content: '👵';
+.icon-halloween::before {
+    content: '\1F383';
 }
 
-.icon-bombera::before {
-    content: '👶';
+.icon-santa::before {
+    content: '\1F385';
 }
 
-.icon-bombero::before {
-    content: '👧';
+.icon-angel::before {
+    content: '\1F47C';
 }
 
-.icon-pilota_mujer::before {
-    content: '🧑';
+.icon-prince::before {
+    content: '\1F934';
 }
 
-.icon-piloto_hombre::before {
-    content: '👦';
+.icon-princess::before {
+    content: '\1F478';
 }
 
-.icon-astronauta_mujer::before {
-    content: '👩';
+.icon-superhero::before {
+    content: '\1F9B8';
 }
 
-.icon-astronauta_hombre::before {
-    content: '👱‍♀️';
+.icon-supervillain::before {
+    content: '\1F9B9';
 }
 
-.icon-cantante_mujer::before {
-    content: '👱‍♂️';
+.icon-man::before {
+    content: '\1F468';
 }
 
-.icon-cantante_hombre::before {
-    content: '👨‍🦳';
+.icon-woman::before {
+    content: '\1F469';
 }
 
-.icon-bailarina_mujer::before {
-    content: '👩‍🦳';
+.icon-boy::before {
+    content: '\1F466';
 }
 
-.icon-bailarín_hombre::before {
-    content: '👨‍🦲';
+.icon-girl::before {
+    content: '\1F467';
 }
 
-.icon-policía_mujer::before {
-    content: '👩‍🦲';
+.icon-person::before {
+    content: '\1F9D1';
 }
 
-.icon-policía_hombre::before {
-    content: '🧑‍🦲';
+.icon-person_in_lotus_position::before {
+    content: '\1F9D8';
 }
 
-.icon-agricultora::before {
-    content: '🧑‍🦳';
+.icon-person_facing_away::before {
+    content: '\1F9D5';
 }
 
-.icon-agricultor::before {
-    content: '👨‍🦱';
+.icon-person_walking::before {
+    content: '\1F6B6';
 }
 
-.icon-trabajadora_de_construcción::before {
-    content: '👩‍🦱';
+.icon-person_running::before {
+    content: '\1F3C3';
 }
 
-.icon-trabajador_de_construcción::before {
-    content: '👨‍🦰';
+.icon-man_dancing::before {
+    content: '\1F57A';
 }
 
-.icon-guardia_mujer::before {
-    content: '👩‍🦰';
+.icon-woman_dancing::before {
+    content: '\1F483';
 }
 
-.icon-guardia_hombre::before {
-    content: '👨‍🦱';
+.icon-woman_health_worker::before {
+    content: '\1F469\u200D\u2695';
 }
 
-.icon-soldado_mujer::before {
-    content: '👩‍🦱';
+.icon-man_health_worker::before {
+    content: '\1F468\u200D\u2695';
 }
 
-.icon-soldado_hombre::before {
-    content: '🤳';
+.icon-man_teacher::before {
+    content: '\1F468\u200D\u1F3EB';
 }
 
-.icon-medalla_de_deporte_mujer::before {
-    content: '📱';
+.icon-woman_teacher::before {
+    content: '\1F469\u200D\u1F3EB';
 }
 
-.icon-medalla_de_deporte_hombre::before {
-    content: '📲';
+.icon-man_scientist::before {
+    content: '\1F468\u200D\u1F52C';
 }
 
-.icon-surfista_mujer::before {
-    content: '☎️';
+.icon-woman_scientist::before {
+    content: '\1F469\u200D\u1F52C';
 }
 
-.icon-surfista_hombre::before {
-    content: '📞';
+.icon-man_cook::before {
+    content: '\1F468\u200D\u1F373';
 }
 
-.icon-jugadora_de_balón_manó::before {
-    content: '📟';
+.icon-woman_cook::before {
+    content: '\1F469\u200D\u1F373';
 }
 
-.icon-jugador_de_balón_manó::before {
-    content: '📠';
+.icon-man_farmer::before {
+    content: '\1F468\u200D\u1F33E';
 }
 
-.icon-jugadora_de_voley::before {
-    content: '💻';
+.icon-woman_farmer::before {
+    content: '\1F469\u200D\u1F33E';
 }
 
-.icon-jugador_de_voley::before {
-    content: '🖥';
+.icon-man_factory_worker::before {
+    content: '\1F468\u200D\u1F3ED';
 }
 
-.icon-luchadora_mujer::before {
-    content: '🖨';
+.icon-woman_factory_worker::before {
+    content: '\1F469\u200D\u1F3ED';
 }
 
-.icon-luchador_hombre::before {
-    content: '🖱';
+.icon-man_technologist::before {
+    content: '\1F468\u200D\u1F4BB';
 }
 
-.icon-luchadora::before {
-    content: '🖲';
+.icon-woman_technologist::before {
+    content: '\1F469\u200D\u1F4BB';
 }
 
-.icon-luchador::before {
-    content: '💾';
+.icon-man_artist::before {
+    content: '\1F468\u200D\u1F3A8';
 }
 
-.icon-esgrimista_mujer::before {
-    content: '💿';
+.icon-woman_artist::before {
+    content: '\1F469\u200D\u1F3A8';
 }
 
-.icon-esgrimista_hombre::before {
-    content: '📀';
+.icon-man_judge::before {
+    content: '\1F468\u200D\u2696';
 }
 
-.icon-esquiadora::before {
-    content: '📼';
+.icon-woman_judge::before {
+    content: '\1F469\u200D\u2696';
 }
 
-.icon-esquiador::before {
-    content: '📷';
+.icon-man_singer::before {
+    content: '\1F468\u200D\u1F3A4';
 }
 
-.icon-ciclista_de_montaña_mujer::before {
-    content: '📸';
+.icon-woman_singer::before {
+    content: '\1F469\u200D\u1F3A4';
 }
 
-.icon-ciclista_de_montaña_hombre::before {
-    content: '📹';
+.icon-man_pilot::before {
+    content: '\1F468\u200D\u2708';
 }
 
-.icon-nadadora_mujer::before {
-    content: '📺';
+.icon-woman_pilot::before {
+    content: '\1F469\u200D\u2708';
 }
 
-.icon-nadador_hombre::before {
-    content: '📻';
+.icon-man_scuba_diver::before {
+    content: '\1F468\u200D\u1F3CD';
 }
 
-.icon-atleta_mujer::before {
-    content: '🎙';
+.icon-woman_scuba_diver::before {
+    content: '\1F469\u200D\u1F3CD';
 }
 
-.icon-atleta_hombre::before {
-    content: '🎚';
+.icon-man_surfer::before {
+    content: '\1F468\u200D\u1F3C4';
 }
 
-.icon-levantadora_de_pesas_mujer::before {
-    content: '🎛';
+.icon-woman_surfer::before {
+    content: '\1F469\u200D\u1F3C4';
 }
 
-.icon-levantador_de_pesas_hombre::before {
-    content: '🎤';
+.icon-man_swimmer::before {
+    content: '\1F468\u200D\u1F3CA';
 }
 
-.icon-controlador-videojuegos::before {
-    content: '🎮';
+.icon-woman_swimmer::before {
+    content: '\1F469\u200D\u1F3CA';
 }
 
-.icon-libro::before {
-    content: '📚';
+.icon-man_basketball_player::before {
+    content: '\1F468\u200D\u1F3C0';
 }
 
-.icon-guitarra::before {
-    content: '🎸';
+.icon-woman_basketball_player::before {
+    content: '\1F469\u200D\u1F3C0';
 }
 
-.icon-balon-baloncesto::before {
-    content: '🏀';
+.icon-man_football_player::before {
+    content: '\1F468\u200D\u1F3C8';
 }
 
-.icon-balon-futbol::before {
-    content: '⚽';
+.icon-woman_football_player::before {
+    content: '\1F469\u200D\u1F3C8';
 }
 
-.icon-dado::before {
-    content: '🎲';
+.icon-man_athlete::before {
+    content: '\1F468\u200D\u1F3C3';
 }
 
-.icon-camara-fotos::before {
-    content: '📷';
+.icon-woman_athlete::before {
+    content: '\1F469\u200D\u1F3C3';
 }
 
-.icon-auriculares::before {
-    content: '🎧';
+.icon-man_golfer::before {
+    content: '\1F468\u200D\u1F3CC';
 }
 
-.icon-ordenador-portatil::before {
-    content: '💻';
+.icon-woman_golfer::before {
+    content: '\1F469\u200D\u1F3CC';
 }
 
-.icon-telefono-movil::before {
-    content: '📱';
+.icon-man_wrestler::before {
+    content: '\1F468\u200D\u1F3CB';
 }
 
-.icon-camara-video::before {
-    content: '🎥';
+.icon-woman_wrestler::before {
+    content: '\1F469\u200D\u1F3CB';
 }
 
-.icon-paleta-pintura::before {
-    content: '🎨';
+.icon-man_skiing::before {
+    content: '\1F468\u200D\u26F7';
 }
 
-.icon-raton::before {
-    content: '🖱️';
+.icon-woman_skiing::before {
+    content: '\1F469\u200D\u26F7';
 }
 
-.icon-ordenador-escritorio::before {
-    content: '🖥️';
+.icon-man_snowboarder::before {
+    content: '\1F468\u200D\u2B50';
 }
 
-.icon-microfono::before {
-    content: '🎤';
+.icon-woman_snowboarder::before {
+    content: '\1F469\u200D\u2B50';
 }
 
-.icon-camara-cine::before {
-    content: '🎬';
+.icon-man_fencing::before {
+    content: '\1F468\u200D\u2B06';
 }
 
-.icon-antena-satelite::before {
-    content: '📡';
+.icon-woman_fencing::before {
+    content: '\1F469\u200D\u2B06';
 }
 
-.icon-globo-terrestre::before {
-    content: '🌐';
+.icon-man_judge::before {
+    content: '\1F468\u200D\u2696';
 }
 
-.icon-regalo::before {
-    content: '🎁';
+.icon-woman_judge::before {
+    content: '\1F469\u200D\u2696';
 }
 
-.icon-cohete::before {
-    content: '🚀';
+.icon-video_camera::before {
+    content: '\1F4F9';
 }
 
-.icon-camion::before {
-    content: '🚚';
+.icon-movie_camera::before {
+    content: '\1F3A5';
 }
 
-.icon-avion::before {
-    content: '✈️';
+.icon-film_frames::before {
+    content: '\1F39E';
 }
 
-.icon-barco::before {
-    content: '🚢';
+.icon-tv::before {
+    content: '\1F4FA';
 }
 
-.icon-bici::before {
-    content: '🚲';
+.icon-projector::before {
+    content: '\1F4FD';
 }
 
-.icon-tren::before {
-    content: '🚆';
+.icon-clapper_board::before {
+    content: '\1F3AC';
 }
 
-.icon-auto::before {
-    content: '🚗';
+.icon-camera::before {
+    content: '\1F4F7';
 }
 
-.icon-moto::before {
-    content: '🏍️';
+.icon-cinema::before {
+    content: '\1F3A6';
 }
 
-.icon-tractor::before {
-    content: '🚜';
+.icon-vhs::before {
+    content: '\1F4FC';
 }
 
-.icon-television::before {
-    content: '📺';
+.icon-dvd::before {
+    content: '\1F4C0';
 }
 
 .icon-radio::before {
-    content: '📻';
+    content: '\1F4FB';
 }
 
-.icon-reproductor-cd::before {
-    content: '📀';
+.icon-microphone::before {
+    content: '\1F3A4';
 }
 
-.icon-casette::before {
-    content: '📼';
+.icon-headphones::before {
+    content: '\1F3A7';
 }
 
-.icon-cine::before {
-    content: '🍿';
+.icon-sound::before {
+    content: '\1F50A';
 }
 
-.icon-cafe::before {
-    content: '☕';
+.icon-speaker::before {
+    content: '\1F50B';
 }
 
-.icon-vaso::before {
-    content: '🥤';
+.icon-television::before {
+    content: '\1F4F9';
 }
 
-.icon-cerveza::before {
-    content: '🍺';
+.icon-video_game::before {
+    content: '\1F3AE';
 }
 
-.icon-cocktail::before {
-    content: '🍸';
+.icon-game_die::before {
+    content: '\1F3B2';
 }
 
-.icon-barril::before {
-    content: '🍻';
+.icon-pause_button::before {
+    content: '\23F8';
 }
 
-.icon-comida::before {
-    content: '🍔';
+.icon-play_button::before {
+    content: '\25B6';
 }
 
-.icon-pizza::before {
-    content: '🍕';
+.icon-fast_forward::before {
+    content: '\23E9';
 }
 
-.icon-sopa::before {
-    content: '🍲';
+.icon-rewind::before {
+    content: '\23EA';
 }
 
-.icon-taco::before {
-    content: '🌮';
+.icon-stop_button::before {
+    content: '\23F9';
 }
 
-.icon-hamburguesa::before {
-    content: '🍔';
+.icon-record_button::before {
+    content: '\23FA';
 }
 
-.icon-paleta::before {
-    content: '🍭';
+.icon-eject_button::before {
+    content: '\23CF';
 }
 
-.icon-galleta::before {
-    content: '🍪';
+.icon-skip_forward::before {
+    content: '\23ED';
 }
 
-.icon-donut::before {
-    content: '🍩';
+.icon-skip_back::before {
+    content: '\23EE';
 }
 
-.icon-fruta::before {
-    content: '🍎';
+.icon-pause_button::before {
+    content: '\23F8';
 }
 
-.icon-uva::before {
-    content: '🍇';
+.icon-play_button::before {
+    content: '\25B6';
 }
 
-.icon-platano::before {
-    content: '🍌';
+.icon-stop::before {
+    content: '\23F9';
 }
 
-.icon-cereza::before {
-    content: '🍒';
+.icon-video_file::before {
+    content: '\1F4C0';
 }
 
-.icon-fresa::before {
-    content: '🍓';
+.icon-video_player::before {
+    content: '\1F4F9';
 }
 
-.icon-pineapple::before {
-    content: '🍍';
+.icon-streaming::before {
+    content: '\1F4F1';
 }
 
-.icon-melon::before {
-    content: '🍈';
+.icon-television::before {
+    content: '\1F4F9';
 }
 
-.icon-manzana::before {
-    content: '🍏';
+.icon-record::before {
+    content: '\1F4F9';
 }
 
-.icon-naranja::before {
-    content: '🍊';
+.icon-video_camera::before {
+    content: '\1F4F9';
 }
 
-.icon-papaya::before {
-    content: '🍈';
+.icon-podcast::before {
+    content: '\1F4FB';
 }
 
-.icon-zanahoria::before {
-    content: '🥕';
+.icon-sound_wave::before {
+    content: '\1F50A';
 }
 
-.icon-pimiento::before {
-    content: '🌶️';
+.icon-television::before {
+    content: '\1F4F9';
 }
 
-.icon-berenjena::before {
-    content: '🍆';
+.icon-movie_projector::before {
+    content: '\1F4FD';
 }
 
-.icon-patata::before {
-    content: '🥔';
+.icon-tape::before {
+    content: '\1F4CC';
 }
 
-.icon-aguacate::before {
-    content: '🥑';
+.icon-video_recording::before {
+    content: '\1F4F8';
 }
 
-.icon-calabaza::before {
-    content: '🎃';
+.icon-film_strip::before {
+    content: '\1F39E';
 }
 
-.icon-hamburguesa::before {
-    content: '🍔';
+.icon-movie_clapper::before {
+    content: '\1F3AC';
 }
 
-.icon-perro::before {
-    content: '🐕';
+.icon-camera_lens::before {
+    content: '\1F4F8';
 }
 
-.icon-gato::before {
-    content: '🐱';
+.icon-photo_camera::before {
+    content: '\1F4F7';
+}
+
+.icon-camera_flash::before {
+    content: '\1F4F8';
+}
+
+.icon-video_disc::before {
+    content: '\1F4C0';
+}
+
+.icon-sound_system::before {
+    content: '\1F4B0';
+}
+
+.icon-television::before {
+    content: '\1F4F9';
+}
+
+.icon-movie_cinema::before {
+    content: '\1F3A6';
+}
+
+.icon-movie_theater::before {
+    content: '\1F3A5';
+}
+
+.icon-movie_scene::before {
+    content: '\1F3A8';
+}
+
+.icon-cinema_screen::before {
+    content: '\1F3A5';
+}
+
+.icon-computer_screen::before {
+    content: '\1F5A5';
+}
+
+.icon-film_clip::before {
+    content: '\1F4F9';
+}
+
+.icon-film_projector::before {
+    content: '\1F4FD';
+}
+
+.icon-film_strip::before {
+    content: '\1F39E';
+}
+
+.icon-film_reel::before {
+    content: '\1F3A2';
+}
+
+.icon-video_editor::before {
+    content: '\1F4F9';
+}
+
+.icon-movie_camera::before {
+    content: '\1F3A5';
+}
+
+.icon-film_reel::before {
+    content: '\1F3A2';
+}
+
+.icon-video_camera::before {
+    content: '\1F4F9';
+}
+
+.icon-director::before {
+    content: '\1F3A5';
+}
+
+.icon-production::before {
+    content: '\1F4FA';
+}
+
+.icon-cinema_projector::before {
+    content: '\1F4FD';
+}
+
+.icon-video_experience::before {
+    content: '\1F4F9';
+}
+
+.icon-motion_picture::before {
+    content: '\1F4F9';
+}
+
+.icon-file_download::before {
+    content: '\1F4E5';
+}
+
+.icon-folder::before {
+    content: '\1F4C1';
+}
+
+.icon-file_folder::before {
+    content: '\1F4C2';
+}
+
+.icon-file::before {
+    content: '\1F4C4';
+}
+
+.icon-arrow_down::before {
+    content: '\2B07';
+}
+
+.icon-download::before {
+    content: '\21E9';
+}
+
+.icon-cloud_download::before {
+    content: '\1F4E5';
+}
+
+.icon-cloud::before {
+    content: '\2601';
+}
+
+.icon-upload::before {
+    content: '\21E5';
+}
+
+.icon-inbox_tray::before {
+    content: '\1F4E4';
+}
+
+.icon-external_drive::before {
+    content: '\1F4BD';
+}
+
+.icon-hard_disk::before {
+    content: '\1F4BD';
+}
+
+.icon-computer_disk::before {
+    content: '\1F4BE';
+}
+
+.icon-zip_file::before {
+    content: '\1F4E4';
+}
+
+.icon-link::before {
+    content: '\1F517';
+}
+
+.icon-drive::before {
+    content: '\1F4BD';
+}
+
+.icon-cloud_storage::before {
+    content: '\1F4E3';
+}
+
+.icon-backup::before {
+    content: '\1F4E3';
+}
+
+.icon-document::before {
+    content: '\1F4C4';
+}
+
+.icon-pdf::before {
+    content: '\1F4C4';
+}
+
+.icon-magnet::before {
+    content: '\1F9F8';
+}
+
+.icon-folder_with_file::before {
+    content: '\1F4C1';
+}
+
+.icon-document_file::before {
+    content: '\1F4C4';
+}
+
+.icon-computer_file::before {
+    content: '\1F4BD';
+}
+
+.icon-archived_file::before {
+    content: '\1F4E5';
+}
+
+.icon-file_save::before {
+    content: '\1F4BE';
+}
+
+.icon-file_download::before {
+    content: '\1F4E5';
+}
+
+.icon-download_button::before {
+    content: '\1F4E5';
+}
+
+.icon-upload_button::before {
+    content: '\1F4E4';
+}
+
+.icon-document_save::before {
+    content: '\1F4BE';
+}
+
+.icon-file_archive::before {
+    content: '\1F4C7';
+}
+
+.icon-files::before {
+    content: '\1F4C4';
+}
+
+.icon-compressed_file::before {
+    content: '\1F5CE';
+}
+
+.icon-unzip::before {
+    content: '\1F5D1';
+}
+
+.icon-cloud_upload::before {
+    content: '\1F4E4';
+}
+
+.icon-sync::before {
+    content: '\1F503';
+}
+
+.icon-arrow_downward::before {
+    content: '\2B07';
+}
+
+.icon-arrow_upward::before {
+    content: '\2B06';
+}
+
+.icon-folder_open::before {
+    content: '\1F4C2';
+}
+
+.icon-folder_plus::before {
+    content: '\1F4C1';
+}
+
+.icon-file_upload::before {
+    content: '\1F4E4';
+}
+
+.icon-file_move::before {
+    content: '\1F4E6';
+}
+
+.icon-file_extension::before {
+    content: '\1F4C5';
+}
+
+.icon-folder_download::before {
+    content: '\1F4E5';
+}
+
+.icon-computer::before {
+    content: '\1F5A5';
+}
+
+.icon-disk_drive::before {
+    content: '\1F4BD';
+}
+
+.icon-file_manage::before {
+    content: '\1F5C0';
+}
+
+.icon-server::before {
+    content: '\1F5D1';
+}
+
+.icon-cow::before {
+    content: '\1F42E';
+}
+
+.icon-dog::before {
+    content: '\1F436';
+}
+
+.icon-cat::before {
+    content: '\1F431';
 }
 
 .icon-horse::before {
-    content: '🐴';
+    content: '\1F434';
 }
 
-.icon-caballo::before {
-    content: '🐎';
+.icon-elephant::before {
+    content: '\1F418';
 }
 
-.icon-cangrejo::before {
-    content: '🦀';
+.icon-monkey::before {
+    content: '\1F435';
 }
 
-.icon-pato::before {
-    content: '🦆';
+.icon-bird::before {
+    content: '\1F426';
 }
 
-.icon-pez::before {
-    content: '🐟';
+.icon-sheep::before {
+    content: '\1F411';
 }
 
-.icon-ballena::before {
-    content: '🐋';
+.icon-pig::before {
+    content: '\1F437';
 }
 
-.icon-leon::before {
-    content: '🦁';
+.icon-rabbit::before {
+    content: '\1F430';
 }
 
-.icon-tigre::before {
-    content: '🐅';
+.icon-mouse::before {
+    content: '\1F42D';
 }
 
-.icon-cebra::before {
-    content: '🦓';
+.icon-frog::before {
+    content: '\1F438';
 }
 
-.icon-tortuga::before {
-    content: '🐢';
+.icon-tiger::before {
+    content: '\1F42F';
 }
 
-.icon-rana::before {
-    content: '🐸';
+.icon-panda::before {
+    content: '\1F43C';
 }
 
-.icon-cocodrilo::before {
-    content: '🐊';
+.icon-koala::before {
+    content: '\1F428';
 }
 
-.icon-serpiente::before {
-    content: '🐍';
+.icon-wolf::before {
+    content: '\1F43A';
 }
 
-.icon-murcielago::before {
-    content: '🦇';
+.icon-bat::before {
+    content: '\1F987';
 }
 
-.icon-elefante::before {
-    content: '🐘';
+.icon-fox::before {
+    content: '\1F98A';
 }
 
-.icon-raton::before {
-    content: '🐭';
+.icon-crocodile::before {
+    content: '\1F40A';
+}
+
+.icon-snake::before {
+    content: '\1F40D';
+}
+
+.icon-turtle::before {
+    content: '\1F422';
+}
+
+.icon-butterfly::before {
+    content: '\1F98B';
+}
+
+.icon-bee::before {
+    content: '\1F41D';
+}
+
+.icon-snail::before {
+    content: '\1F40C';
+}
+
+.icon-hummingbird::before {
+    content: '\1F99C';
+}
+
+.icon-chicken::before {
+    content: '\1F414';
+}
+
+.icon-duck::before {
+    content: '\1F413';
+}
+
+.icon-lion::before {
+    content: '\1F981';
+}
+
+.icon-elephant::before {
+    content: '\1F418';
+}
+
+.icon-hawk::before {
+    content: '\1F9A2';
+}
+
+.icon-parrot::before {
+    content: '\1F99C';
+}
+
+.icon-goat::before {
+    content: '\1F410';
+}
+
+.icon-camel::before {
+    content: '\1F42A';
+}
+
+.icon-giraffe::before {
+    content: '\1F992';
+}
+
+.icon-bull::before {
+    content: '\1F402';
+}
+
+.icon-shark::before {
+    content: '\1F988';
+}
+
+.icon-whale::before {
+    content: '\1F433';
+}
+
+.icon-octopus::before {
+    content: '\1F419';
+}
+
+.icon-seal::before {
+    content: '\1F9AD';
+}
+
+.icon-otter::before {
+    content: '\1F9A6';
+}
+
+.icon-dolphin::before {
+    content: '\1F42C';
+}
+
+.icon-camel::before {
+    content: '\1F42A';
+}
+
+.icon-horse::before {
+    content: '\1F434';
+}
+
+.icon-rat::before {
+    content: '\1F400';
+}
+
+.icon-sheep::before {
+    content: '\1F411';
+}
+
+.icon-dog::before {
+    content: '\1F436';
+}
+
+.icon-chicken::before {
+    content: '\1F414';
+}
+
+.icon-rabbit::before {
+    content: '\1F430';
+}
+
+.icon-pig::before {
+    content: '\1F437';
+}
+
+.icon-monkey::before {
+    content: '\1F435';
+}
+
+.icon-bear::before {
+    content: '\1F43B';
+}
+
+.icon-koala::before {
+    content: '\1F428';
+}
+
+.icon-panda::before {
+    content: '\1F43C';
+}
+
+.icon-cow::before {
+    content: '\1F42E';
+}
+
+.icon-dog::before {
+    content: '\1F436';
+}
+
+.icon-cat::before {
+    content: '\1F431';
+}
+
+.icon-horse::before {
+    content: '\1F434';
+}
+
+.icon-elephant::before {
+    content: '\1F418';
+}
+
+.icon-monkey::before {
+    content: '\1F435';
+}
+
+.icon-bird::before {
+    content: '\1F426';
+}
+
+.icon-sheep::before {
+    content: '\1F411';
+}
+
+.icon-pig::before {
+    content: '\1F437';
+}
+
+.icon-rabbit::before {
+    content: '\1F430';
+}
+
+.icon-mouse::before {
+    content: '\1F42D';
+}
+
+.icon-frog::before {
+    content: '\1F438';
+}
+
+.icon-tiger::before {
+    content: '\1F42F';
+}
+
+.icon-panda::before {
+    content: '\1F43C';
+}
+
+.icon-koala::before {
+    content: '\1F428';
+}
+
+.icon-wolf::before {
+    content: '\1F43A';
+}
+
+.icon-bat::before {
+    content: '\1F987';
+}
+
+.icon-fox::before {
+    content: '\1F98A';
+}
+
+.icon-crocodile::before {
+    content: '\1F40A';
+}
+
+.icon-snake::before {
+    content: '\1F40D';
+}
+
+.icon-turtle::before {
+    content: '\1F422';
+}
+
+.icon-butterfly::before {
+    content: '\1F98B';
+}
+
+.icon-bee::before {
+    content: '\1F41D';
+}
+
+.icon-snail::before {
+    content: '\1F40C';
+}
+
+.icon-hummingbird::before {
+    content: '\1F99C';
+}
+
+.icon-chicken::before {
+    content: '\1F414';
+}
+
+.icon-duck::before {
+    content: '\1F413';
+}
+
+.icon-lion::before {
+    content: '\1F981';
+}
+
+.icon-elephant::before {
+    content: '\1F418';
+}
+
+.icon-hawk::before {
+    content: '\1F9A2';
+}
+
+.icon-parrot::before {
+    content: '\1F99C';
+}
+
+.icon-goat::before {
+    content: '\1F410';
+}
+
+.icon-camel::before {
+    content: '\1F42A';
+}
+
+.icon-giraffe::before {
+    content: '\1F992';
+}
+
+.icon-bull::before {
+    content: '\1F402';
+}
+
+.icon-shark::before {
+    content: '\1F988';
+}
+
+.icon-whale::before {
+    content: '\1F433';
+}
+
+.icon-octopus::before {
+    content: '\1F419';
+}
+
+.icon-seal::before {
+    content: '\1F9AD';
+}
+
+.icon-otter::before {
+    content: '\1F9A6';
+}
+
+.icon-dolphin::before {
+    content: '\1F42C';
+}
+
+.icon-camel::before {
+    content: '\1F42A';
+}
+
+.icon-horse::before {
+    content: '\1F434';
+}
+
+.icon-rat::before {
+    content: '\1F400';
+}
+
+.icon-sheep::before {
+    content: '\1F411';
+}
+
+.icon-dog::before {
+    content: '\1F436';
+}
+
+.icon-chicken::before {
+    content: '\1F414';
+}
+
+.icon-rabbit::before {
+    content: '\1F430';
+}
+
+.icon-pig::before {
+    content: '\1F437';
 }
 
 /* Terminan los Iconos */
