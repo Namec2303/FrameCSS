@@ -57,6 +57,11 @@ html {
     bottom: 0;
 }
 
+
+i {
+    font-style: normal ;
+}
+
 /*
     * caja adaptable
 */
