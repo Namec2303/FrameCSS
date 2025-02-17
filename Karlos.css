@@ -48,13 +48,8 @@ html {
 .container {
     display: flex;
     flex-direction: column;
-    overflow: scroll;
-    overflow-x: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 90% ;
+    margin: 0 auto ;
 }
 
 
@@ -1824,8 +1819,8 @@ picture {
     display: block;
 }
 
-.gird {
-    display: grid;
+.d-none {
+    display: none  ;
 }
 
 /* Terminan las alineaciones */
@@ -2918,49 +2913,46 @@ picture {
 
 /* Margen */
 
-.mg-0 {
-    margin: 0 auto ;
+.mg-top-1 {
+    margin-top: var(--mg-1);
 }
 
-.mg-1 {
-    margin: var(--mg-1) auto ;
+.mg-top-2 {
+    margin-top: var(--mg-2);
 }
 
-.mg-2 {
-    margin: var(--mg-2) auto ;
+.mg-top-3 {
+    margin-top: var(--mg-3);
 }
 
-.mg-3 {
-    margin: var(--mg-3) auto ;
+.mg-top-4 {
+    margin-top: var(--mg-4);
 }
 
-.mg-4 {
-    margin: var(--mg-4) auto ;
+.mg-top-5 {
+    margin-top: var(--mg-5);
 }
 
-.mg-5 {
-    margin: var(--mg-5) auto ;
+.mg-top-6 {
+    margin-top: var(--mg-6);
 }
 
-.mg-6 {
-    margin: var(--mg-6) auto ;
+.mg-top-7 {
+    margin-top: var(--mg-7);
 }
 
-.mg-7 {
-    margin: var(--mg-7) auto ;
+.mg-top-8 {
+    margin-top: var(--mg-8);
 }
 
-.mg-8 {
-    margin: var(--mg-8) auto ;
+.mg-top-9 {
+    margin-top: var(--mg-9);
 }
 
-.mg-9 {
-    margin: var(--mg-9) auto ;
+.mg-top-10 {
+    margin-top: var(--mg-10);
 }
 
-.mg-10 {
-    margin: var(--mg-10 auto );
-}
 
 /* Terminan los Márgenes */
 /* Márgenes automáticos */
