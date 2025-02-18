@@ -64,15 +64,23 @@ i {
 
 
 /* Botón principal */
-.btn-principal {
+/* Estilos generales para botones */
+.btn {
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
     font-size: 16px;
-    border: none;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Botón principal */
+.btn-principal {
+    background-color: #007BFF;
+    color: white;
+    border: none;
 }
 
 .btn-principal:hover {
@@ -80,16 +88,23 @@ i {
     transform: scale(1.05);
 }
 
+/* Botón secundario */
+.btn-secundario {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+.btn-secundario:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
+
 /* Botón de alerta */
 .btn-alerta {
-    padding: 10px 20px;
     background-color: #dc3545;
     color: white;
-    font-size: 16px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-alerta:hover {
@@ -99,14 +114,9 @@ i {
 
 /* Botón de éxito */
 .btn-exito {
-    padding: 10px 20px;
     background-color: #28a745;
     color: white;
-    font-size: 16px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-exito:hover {
@@ -114,106 +124,123 @@ i {
     transform: scale(1.05);
 }
 
-/* Botón de borde animado */
-.btn-borde-animado {
-    padding: 10px 20px;
-    background-color: #e74c3c;
-    color: white;
-    font-size: 16px;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    position: relative;
-    transition: border-color 0.3s ease;
-}
-
-.btn-borde-animado:hover {
-    border-color: #c0392b;
-}
-
-/* Botón con sombra */
-.btn-sombra {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: white;
-    font-size: 16px;
+/* Botón deshabilitado */
+.btn-deshabilitado {
+    background-color: #e0e0e0;
+    color: #a0a0a0;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: not-allowed;
 }
 
-.btn-sombra:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+/* Botón contorno */
+.btn-contorno {
+    background-color: transparent;
+    color: #007BFF;
+    border: 2px solid #007BFF;
 }
 
-/* Botón de fondo degradado */
+.btn-contorno:hover {
+    background-color: #007BFF;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Botón con ícono */
+.btn-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Botones de tamaño */
+.btn-pequeno {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-grande {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+/* Botón con fondo degradado */
 .btn-degradado {
     background: linear-gradient(45deg, #ff6f61, #ffb142);
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
 }
 
 .btn-degradado:hover {
     background: linear-gradient(45deg, #ffb142, #ff6f61);
 }
 
-/* Botón cuadrado */
-.btn-cuadrado {
-    padding: 12px 12px;
-    background-color: #007BFF;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    transition: background-color 0.3s ease;
-}
-
-.btn-cuadrado:hover {
-    background-color: #0056b3;
-}
-
-/* Botón transparente */
-.btn-transparente {
+/* Botón de borde grueso */
+.btn-borde-grueso {
     padding: 10px 20px;
     background-color: transparent;
-    color: #2980b9;
-    font-size: 16px;
-    border: 2px solid #2980b9;
+    color: #f39c12;
+    border: 4px solid #f39c12;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.btn-transparente:hover {
-    background-color: #2980b9;
+.btn-borde-grueso:hover {
+    background-color: #f39c12;
     color: white;
 }
 
-/* Botón de sombra sutil */
-.btn-sombra-sutil {
+/* Botón de sombra */
+.btn-sombra {
     padding: 10px 20px;
-    background-color: #1abc9c;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.btn-sombra:hover {
+    transform: translateY(-2px);
+}
+
+/* Botón con animación */
+.btn-animado {
+    padding: 10px 20px;
+    background-color: #f39c12;
     color: white;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
 }
 
-.btn-sombra-sutil:hover {
+.btn-animado:hover {
+    animation: pulsar 1s infinite;
+}
+
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Botón transiciones */
+.btn-transicion {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-transicion:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -230,11 +257,27 @@ i {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .btn-icon-text:hover {
     background-color: #e67e22;
+}
+
+/* Botón cuadrado */
+.btn-cuadrado {
+    padding: 12px 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-cuadrado:hover {
+    background-color: #0056b3;
 }
 
 /* Botón redondeado */
@@ -246,29 +289,104 @@ i {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .btn-redondeado:hover {
     background-color: #9b59b6;
 }
 
-/* Botón con borde grueso */
-.btn-borde-grueso {
+/* Botón transparente */
+.btn-transparente {
     padding: 10px 20px;
-    background-color: #f39c12;
+    background-color: transparent;
+    color: #2980b9;
+    font-size: 16px;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-transparente:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Botón con borde animado */
+.btn-borde-animado {
+    padding: 10px 20px;
+    background-color: #e74c3c;
     color: white;
     font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-borde-animado::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c0392b;
+    transition: all 0.3s ease;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.btn-borde-animado:hover::before {
+    width: 0;
+    height: 0;
+}
+
+/* Botón con gradiente */
+.btn-gradiente {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff6f61, #ffb142);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-gradiente:hover {
+    background: linear-gradient(45deg, #ffb142, #ff6f61);
+}
+
+/* Botón de borde grueso */
+.btn-borde-grueso {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #f39c12;
     border: 4px solid #f39c12;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .btn-borde-grueso:hover {
-    background-color: #e67e22;
+    background-color: #f39c12;
+    color: white;
 }
 
+/* Botón de sombra sutil */
+.btn-sombra-sutil {
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-sombra-sutil:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 /* terminan los botones */
 
