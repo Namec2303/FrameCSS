@@ -62,25 +62,21 @@ i {
 
 /* Botones */
 
+/* Karlos.css */
 
 /* Botón principal */
-/* Estilos generales para botones */
-.btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    text-align: center;
-    display: inline-block;
-}
+/* Karlos.css */
 
 /* Botón principal */
 .btn-principal {
+    padding: 10px 20px;
     background-color: #007BFF;
     color: white;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-principal:hover {
@@ -90,9 +86,14 @@ i {
 
 /* Botón secundario */
 .btn-secundario {
+    padding: 10px 20px;
     background-color: #6c757d;
     color: white;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-secundario:hover {
@@ -102,9 +103,14 @@ i {
 
 /* Botón de alerta */
 .btn-alerta {
+    padding: 10px 20px;
     background-color: #dc3545;
     color: white;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-alerta:hover {
@@ -114,9 +120,14 @@ i {
 
 /* Botón de éxito */
 .btn-exito {
+    padding: 10px 20px;
     background-color: #28a745;
     color: white;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-exito:hover {
@@ -126,26 +137,16 @@ i {
 
 /* Botón deshabilitado */
 .btn-deshabilitado {
+    padding: 10px 20px;
     background-color: #e0e0e0;
     color: #a0a0a0;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
     cursor: not-allowed;
 }
 
-/* Botón contorno */
-.btn-contorno {
-    background-color: transparent;
-    color: #007BFF;
-    border: 2px solid #007BFF;
-}
-
-.btn-contorno:hover {
-    background-color: #007BFF;
-    color: white;
-    transform: scale(1.05);
-}
-
-/* Botón con ícono */
+/* Botón con icono */
 .btn-icon {
     display: flex;
     align-items: center;
@@ -163,37 +164,46 @@ i {
     font-size: 18px;
 }
 
-/* Botón con fondo degradado */
+/* Botones con fondo degradado */
 .btn-degradado {
     background: linear-gradient(45deg, #ff6f61, #ffb142);
     color: white;
     border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .btn-degradado:hover {
     background: linear-gradient(45deg, #ffb142, #ff6f61);
 }
 
-/* Botón de borde grueso */
-.btn-borde-grueso {
+/* Botón contorno */
+.btn-contorno {
     padding: 10px 20px;
     background-color: transparent;
-    color: #f39c12;
-    border: 4px solid #f39c12;
+    color: #007BFF;
+    font-size: 16px;
+    border: 2px solid #007BFF;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.btn-borde-grueso:hover {
-    background-color: #f39c12;
+.btn-contorno:hover {
+    background-color: #007BFF;
     color: white;
+    transform: scale(1.05);
 }
 
-/* Botón de sombra */
+/* Botón sombra */
 .btn-sombra {
     padding: 10px 20px;
-    background-color: #e74c3c;
+    background-color: #28a745;
     color: white;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -221,9 +231,17 @@ i {
 }
 
 @keyframes pulsar {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 /* Botón transiciones */
@@ -360,16 +378,16 @@ i {
 /* Botón de borde grueso */
 .btn-borde-grueso {
     padding: 10px 20px;
-    background-color: transparent;
-    color: #f39c12;
+    background-color: #f39c12;
+    color: white;
+    font-size: 16px;
     border: 4px solid #f39c12;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .btn-borde-grueso:hover {
-    background-color: #f39c12;
-    color: white;
+    background-color: #e67e22;
 }
 
 /* Botón de sombra sutil */
@@ -387,6 +405,26 @@ i {
 .btn-sombra-sutil:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+/* Botón con icono */
+.btn-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Botones de tamaño */
+.btn-pequeno {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-grande {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
 
 /* terminan los botones */
 
@@ -2977,156 +3015,132 @@ picture {
 /* Terminan los Márgenes automáticos */
 /* Columnas */
 
-
-.col-1 {
-    width: 8.33%;
+.size-10 {
+    width: 10%;
 }
 
-.col-2 {
-    width: 16.66%;
+.size-20 {
+    width: 20%;
 }
 
-.col-3 {
-    width: 25%;
+.size-30 {
+    width: 30%;
 }
 
-.col-4 {
-    width: 33.33%;
+.size-40 {
+    width: 40%;
 }
 
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
+.size-50 {
     width: 50%;
 }
 
-.col-7 {
-    width: 58.33%;
+.size-60 {
+    width: 60%;
 }
 
-.col-8 {
-    width: 66.66%;
+.size-70 {
+    width: 70%;
 }
 
-.col-9 {
-    width: 75%;
+.size-80 {
+    width: 80%;
 }
 
-.col-10 {
-    width: 83.33%;
+.size-90 {
+    width: 90%;
 }
 
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
+.size-100 {
     width: 100%;
 }
 
 
 @media screen and (max-width: 996px) {
-    .med-col-1 {
-        width: 8.33%;
+    .med-size-10 {
+        width: 10%;
     }
 
-    .med-col-2 {
-        width: 16.66%;
+    .med-size-20 {
+        width: 20%;
     }
 
-    .med-col-3 {
-        width: 25%;
+    .med-size-30 {
+        width: 30%;
     }
 
-    .med-col-4 {
-        width: 33.33%;
+    .med-size-40 {
+        width: 40%;
     }
 
-    .med-col-5 {
-        width: 41.66%;
-    }
-
-    .med-col-6 {
+    .med-size-50 {
         width: 50%;
     }
 
-    .med-col-7 {
-        width: 58.33%;
+    .med-size-60 {
+        width: 60%;
     }
 
-    .med-col-8 {
-        width: 66.66%;
+    .med-size-70 {
+        width: 70%;
     }
 
-    .med-col-9 {
-        width: 75%;
+    .med-size-80 {
+        width: 80%;
     }
 
-    .med-col-10 {
-        width: 83.33%;
+    .med-size-90 {
+        width: 90%;
     }
 
-    .med-col-11 {
-        width: 91.66%;
-    }
-
-    .med-col-12 {
+    .med-size-100 {
         width: 100%;
     }
-
 }
+
 
 @media screen and (max-width: 576px) {
 
-    .peq-col-1 {
-        width: 25%;
+    .peq-size-10 {
+        width: 10%;
     }
 
-    .peq-col-2 {
+    .peq-size-20 {
+        width: 20%;
+    }
+
+    .peq-size-30 {
+        width: 30%;
+    }
+
+    .peq-size-40 {
+        width: 40%;
+    }
+
+    .peq-size-50 {
         width: 50%;
     }
 
-    .peq-col-3 {
-        width: 75%;
+    .peq-size-60 {
+        width: 60%;
     }
 
-    .peq-col-4 {
+    .peq-size-70 {
+        width: 70%;
+    }
+
+    .peq-size-80 {
+        width: 80%;
+    }
+
+    .peq-size-90 {
+        width: 90%;
+    }
+
+    .peq-size-100 {
         width: 100%;
     }
 
-    .peq-col-5 {
-        width: 100%;
-    }
-
-    .peq-col-6 {
-        width: 100%;
-    }
-
-    .peq-col-7 {
-        width: 100%;
-    }
-
-    .peq-col-8 {
-        width: 100%;
-    }
-
-    .peq-col-9 {
-        width: 100%;
-    }
-
-    .peq-col-10 {
-        width: 100%;
-    }
-
-    .peq-col-11 {
-        width: 100%;
-    }
-
-    .peq-col-12 {
-        width: 100%;
-    }
 
 
     .card {
