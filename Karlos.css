@@ -4466,501 +4466,500 @@ picture {
     content: '\1F437';
 }
 
+/* 🌳 Árbol */
 .icon-tree::before {
     content: "\1F333";
 }
 
-/* 🌳 Árbol */
+/* 🌲 Pino */
 .icon-pine::before {
     content: "\1F332";
 }
 
-/* 🌲 Pino */
+/* 🍂 Hoja cayendo */
 .icon-leaf::before {
     content: "\1F342";
 }
 
-/* 🍂 Hoja cayendo */
+/* 🍀 Trébol */
 .icon-clover::before {
     content: "\1F340";
 }
 
-/* 🍀 Trébol */
+/* 🌵 Cactus */
 .icon-cactus::before {
     content: "\1F335";
 }
 
-/* 🌵 Cactus */
+/* 🌼 Flor */
 .icon-flower::before {
     content: "\1F33C";
 }
 
-/* 🌼 Flor */
+/* 🌻 Girasol */
 .icon-sunflower::before {
     content: "\1F33B";
 }
 
-/* 🌻 Girasol */
+/* 🌺 Flor */
 .icon-blossom::before {
     content: "\1F33A";
 }
 
-/* 🌺 Flor */
+/* 🌿 Planta */
 .icon-grass::before {
     content: "\1F33F";
 }
 
-/* 🌿 Planta */
+/* 🌸 Margarita */
 .icon-daisy::before {
     content: "\1F339";
 }
 
-/* 🌸 Margarita */
+/* 🌴 Palmera */
 .icon-palm::before {
     content: "\1F334";
 }
 
-/* 🌴 Palmera */
+/* 🎍 Bambú */
 .icon-bamboo::before {
     content: "\1F38D";
 }
 
-/* 🎍 Bambú */
+/* 🌷 Tulipán */
 .icon-tulip::before {
     content: "\1F337";
 }
 
-/* 🌷 Tulipán */
+/* 🌸 Orquídea */
 .icon-orchid::before {
     content: "\1F338";
 }
 
-/* 🌸 Orquídea */
+/* 🌹 Rosa */
 .icon-rose::before {
     content: "\1F339";
 }
 
-/* 🌹 Rosa */
+/* 🌱 Brote */
 .icon-fir::before {
     content: "\1F331";
 }
 
-/* 🌱 Brote */
+/* 🌽 Mazorca */
 .icon-corn::before {
     content: "\1F33D";
 }
 
-/* 🌽 Mazorca */
+/* 🍄 Hongo */
 .icon-mushroom::before {
     content: "\1F344";
 }
 
-/* 🍄 Hongo */
+/* 🍉 Sandía */
 .icon-watermelon::before {
     content: "\1F349";
 }
 
-/* 🍉 Sandía */
+/* 🍇 Uvas */
 .icon-grapes::before {
     content: "\1F347";
 }
 
-/* 🍇 Uvas */
+/* 🍎 Manzana */
 .icon-apple::before {
     content: "\1F34E";
 }
 
-/* 🍎 Manzana */
+/* 🍒 Cereza */
 .icon-cherry::before {
     content: "\1F352";
 }
 
-/* 🍒 Cereza */
+/* 🍑 Durazno */
 .icon-peach::before {
     content: "\1F351";
 }
 
-/* 🍑 Durazno */
+/* 🍌 Plátano */
 .icon-banana::before {
     content: "\1F34C";
 }
 
-/* 🍌 Plátano */
+/* 🥥 Coco */
 .icon-coconut::before {
     content: "\1F965";
 }
 
-/* 🥥 Coco */
+/* 🍓 Fresa */
 .icon-strawberry::before {
     content: "\1F353";
 }
 
-/* 🍓 Fresa */
+/* 🍍 Piña */
 .icon-pineapple::before {
     content: "\1F34D";
 }
 
-/* 🍍 Piña */
+/* 🍊 Naranja */
 .icon-orange::before {
     content: "\1F34A";
 }
 
-/* 🍊 Naranja */
+/* 🍋 Limón */
 .icon-lemon::before {
     content: "\1F34B";
 }
 
-/* 🍋 Limón */
+/* 🫐 Arándano */
 .icon-blueberry::before {
     content: "\1FAD0";
 }
 
-/* 🫐 Arándano */
+/* 🥕 Zanahoria */
 .icon-carrot::before {
     content: "\1F955";
 }
 
-/* 🥕 Zanahoria */
+/* 🥖 Remolacha */
 .icon-beet::before {
     content: "\1F956";
 }
 
-/* 🥖 Remolacha */
+/* 🥔 Papa */
 .icon-potato::before {
     content: "\1F954";
 }
 
-/* 🥔 Papa */
+/* 🥦 Brócoli */
 .icon-broccoli::before {
     content: "\1F966";
 }
 
-/* 🥦 Brócoli */
+/* 🧃 Pimiento */
 .icon-pepper::before {
     content: "\1F9C3";
 }
 
-/* 🧃 Pimiento */
+/* 🍆 Berenjena */
 .icon-eggplant::before {
     content: "\1F346";
 }
 
-/* 🍆 Berenjena */
+/* 🍐 Pera */
 .icon-pear::before {
     content: "\1F350";
 }
 
-/* 🍐 Pera */
+/* 🥒 Pepino */
 .icon-cucumber::before {
     content: "\1F952";
 }
 
-/* 🥒 Pepino */
+/* 🥒 Rábano */
 .icon-radish::before {
     content: "\1F952";
 }
 
-/* 🥒 Rábano */
+/* 🍉 Toronja */
 .icon-grapefruit::before {
     content: "\1F352";
 }
 
-/* 🍉 Toronja */
+/* 🥛 Limón */
 .icon-lemonade::before {
     content: "\1F95B";
 }
 
-/* 🥛 Limón */
+/* 🌊 Mar */
 .icon-sea::before {
     content: "\1F30A";
 }
 
-/* 🌊 Mar */
+/* 🏔️ Montaña */
 .icon-mountain::before {
     content: "\1F3D4";
 }
 
-/* 🏔️ Montaña */
+/* 🌋 Volcán */
 .icon-volcano::before {
     content: "\1F30B";
 }
 
-/* 🌋 Volcán */
+/* ☀️ Sol */
 .icon-sun::before {
     content: "\2600";
 }
 
-/* ☀️ Sol */
+/* ☁️ Nube */
 .icon-cloud::before {
     content: "\2601";
 }
 
-/* ☁️ Nube */
+/* 🌧️ Lluvia */
 .icon-rain::before {
     content: "\1F327";
 }
 
-/* 🌧️ Lluvia */
+/* 🌨️ Nieve */
 .icon-snow::before {
     content: "\1F328";
 }
 
-/* 🌨️ Nieve */
+/* 🌬️ Viento */
 .icon-wind::before {
     content: "\1F32C";
 }
 
-/* 🌬️ Viento */
+/* 🌪️ Tormenta */
 .icon-storm::before {
     content: "\1F32A";
 }
 
-/* 🌪️ Tormenta */
+/* 🌀 Tormenta ciclónica */
 .icon-hurricane::before {
     content: "\1F300";
 }
 
-/* 🌀 Tormenta ciclónica */
+/* ☔ Sombrero de lluvia */
 .icon-umbrella::before {
     content: "\2614";
 }
 
-/* ☔ Sombrero de lluvia */
+/* 🌈 Arco iris */
 .icon-rainbow::before {
     content: "\1F308";
 }
 
-/* 🌈 Arco iris */
+/* 🌔 Luna */
 .icon-moon::before {
     content: "\1F314";
 }
 
-/* 🌔 Luna */
+/* ⭐ Estrella */
 .icon-star::before {
     content: "\2B50";
 }
 
-/* ⭐ Estrella */
+/* 💥 Cometa */
 .icon-comet::before {
     content: "\1F4A5";
 }
 
-/* 💥 Cometa */
-.icon.sunflower::before {
+/* 🌻 Girasol */
+.icon-sunflower::before {
     content: "\1F33B";
 }
 
-/* 🌻 Girasol */
+/* 🦔 Animal */
 .icon-animal::before {
     content: "\1F437";
 }
 
-/* 🦔 Animal */
-.icon.nature::before {
+/* 🦎 Naturaleza */
+.icon-nature::before {
     content: "\1F438";
 }
 
-/* 🦎 Naturaleza */
+/* 🌲 Bosque */
 .icon-forest::before {
     content: "\1F332";
 }
 
-/* 🌲 Bosque */
+/* 🌿 Jungla */
 .icon-jungle::before {
     content: "\1F33F";
 }
 
-/* 🌿 Jungla */
-.icon.grass::before {
+/* 🌿 Pasto */
+.icon-grass::before {
     content: "\1F33F";
 }
 
-/* 🌿 Pasto */
+/* 🌼 Flor */
 .icon-flower::before {
     content: "\1F33C";
 }
 
-/* 🌼 Flor */
+/* 🐝 Abeja */
 .icon-honeybee::before {
     content: "\1F41D";
 }
 
-/* 🐝 Abeja */
+/* 🦋 Mariposa */
 .icon-butterfly::before {
     content: "\1F98B";
 }
 
-/* 🦋 Mariposa */
-.icon-ant::before {
-    content: "\1F41C"
-}
-
 /* 🐜 Hormiga */
-.icon-bird::before {
-    content: "\1F426"
+.icon-ant::before {
+    content: "\1F41C";
 }
 
 /* 🐦 Pájaro */
-.icon-eagle::before {
-    content: "\1F985"
+.icon-bird::before {
+    content: "\1F426";
 }
 
 /* 🦅 Águila */
+.icon-eagle::before {
+    content: "\1F985";
+}
+
+/* 🐟 Pez */
 .icon-fish::before {
     content: "\1F41F";
 }
 
-/* 🐟 Pez */
+/* 🦈 Tiburón */
 .icon-shark::before {
     content: "\1F988";
 }
 
-/* 🦈 Tiburón */
-.icon.whale::before {
+/* 🐋 Ballena */
+.icon-whale::before {
     content: "\1F433";
 }
 
-/* 🐋 Ballena */
+/* 🐬 Delfín */
 .icon-dolphin::before {
     content: "\1F42C";
 }
 
-/* 🐬 Delfín */
-.icon.crab::before {
+/* 🦀 Cangrejo */
+.icon-crab::before {
     content: "\1F980";
 }
 
-/* 🦀 Cangrejo */
-.icon.octopus::before {
+/* 🐙 Pulpo */
+.icon-octopus::before {
     content: "\1F419";
 }
 
-/* 🐙 Pulpo */
-.icon.crocodile::before {
+/* 🐊 Cocodrilo */
+.icon-crocodile::before {
     content: "\1F40A";
 }
 
-/* 🐊 Cocodrilo */
-.icon.sheep::before {
+/* 🐏 Oveja */
+.icon-sheep::before {
     content: "\1F411";
 }
 
-/* 🐏 Oveja */
-.icon.horse::before {
+/* 🐎 Caballo */
+.icon-horse::before {
     content: "\1F40E";
 }
 
-/* 🐎 Caballo */
-.icon.rabbit::before {
+/* 🐰 Conejo */
+.icon-rabbit::before {
     content: "\1F430";
 }
 
-/* 🐰 Conejo */
-.icon.snake::before {
+/* 🐍 Serpiente */
+.icon-snake::before {
     content: "\1F40D";
 }
 
-/* 🐍 Serpiente */
-.icon.dog::before {
+/* 🐕 Perro */
+.icon-dog::before {
     content: "\1F415";
 }
 
-/* 🐕 Perro */
-.icon.cat::before {
+/* 🐈 Gato */
+.icon-cat::before {
     content: "\1F408";
 }
 
-/* 🐈 Gato */
-.icon.koala::before {
+/* 🐨 Koala */
+.icon-koala::before {
     content: "\1F428";
 }
 
-/* 🐨 Koala */
-.icon.panda::before {
+/* 🐼 Panda */
+.icon-panda::before {
     content: "\1F43C";
 }
 
-/* 🐼 Panda */
-.icon.monkey::before {
+/* 🐒 Mono */
+.icon-monkey::before {
     content: "\1F412";
 }
 
-/* 🐒 Mono */
-.icon.bat::before {
+/* 🦇 Murciélago */
+.icon-bat::before {
     content: "\1F987";
 }
 
-/* 🦇 Murciélago */
-.icon.rat::before {
+/* 🐀 Rata */
+.icon-rat::before {
     content: "\1F400";
 }
 
-/* 🐀 Rata */
+/* 🐿️ Ardilla */
 .icon.squirrel::before {
     content: "\1F43F";
 }
 
-/* 🐿️ Ardilla */
-.icon.elephant::before {
+/* 🐘 Elefante */
+.icon-elephant::before {
     content: "\1F418";
 }
 
-/* 🐘 Elefante */
-.icon.bear::before {
+/* 🐻 Oso */
+.icon-bear::before {
     content: "\1F43B";
 }
 
-/* 🐻 Oso */
-.icon.lion::before {
+/* 🦁 León */
+.icon-lion::before {
     content: "\1F981";
 }
 
-/* 🦁 León */
-.icon.tiger::before {
+/* 🐯 Tigre */
+.icon-tiger::before {
     content: "\1F42F";
 }
 
-/* 🐯 Tigre */
-.icon.zebra::before {
+/* 🦓 Cebra */
+.icon-zebra::before {
     content: "\1F993";
 }
 
-/* 🦓 Cebra */
-.icon.kangaroo::before {
+/* 🦘 Canguro */
+.icon-kangaroo::before {
     content: "\1F998";
 }
 
-/* 🦘 Canguro */
-.icon.rhino::before {
+/* 🦏 Rinoceronte */
+.icon-rhino::before {
     content: "\1F98F";
 }
 
-/* 🦏 Rinoceronte */
-.icon.giraffe::before {
+/* 🦒 Jirafa */
+.icon-giraffe::before {
     content: "\1F992";
 }
 
-/* 🦒 Jirafa */
-.icon.chicken::before {
+/* 🐔 Pollo */
+.icon-chicken::before {
     content: "\1F414";
 }
 
-/* 🐔 Pollo */
-.icon.duck::before {
+/* 🦆 Pato */
+.icon-duck::before {
     content: "\1F986";
 }
 
-/* 🦆 Pato */
-.icon.peacock::before {
+/* 🦚 Pavo real */
+.icon-peacock::before {
     content: "\1F99A";
 }
 
-/* 🦚 Pavo real */
-.icon.parrot::before {
+/* 🦜 Loro */
+.icon-parrot::before {
     content: "\1F99C";
 }
-
-/* 🦜 Loro */
 
 
 /* Terminan los Iconos */
